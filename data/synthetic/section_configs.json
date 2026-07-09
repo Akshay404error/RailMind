@@ -1,0 +1,5290 @@
+{
+  "corridor_stations": [
+    "ANVR",
+    "ANVT",
+    "CNJ",
+    "SBB",
+    "GZB",
+    "MIU",
+    "DER",
+    "BRKY"
+  ],
+  "block_sections": [
+    {
+      "length_km": 0.24,
+      "line_type": "double",
+      "max_speed_kmph": 80,
+      "headway_minutes": 3,
+      "gradient_percent": 0.89,
+      "signal_spacing_km": 1.37,
+      "historical_train_count": 63,
+      "avg_observed_travel_time_min": 0.1,
+      "from_station": "ANVR",
+      "to_station": "ANVT"
+    },
+    {
+      "length_km": 2.08,
+      "line_type": "double",
+      "max_speed_kmph": 100,
+      "headway_minutes": 5,
+      "gradient_percent": 0.12,
+      "signal_spacing_km": 2.11,
+      "historical_train_count": 75,
+      "avg_observed_travel_time_min": 2.5,
+      "from_station": "ANVT",
+      "to_station": "CNJ"
+    },
+    {
+      "length_km": 3.45,
+      "line_type": "double",
+      "max_speed_kmph": 80,
+      "headway_minutes": 5,
+      "gradient_percent": 0.51,
+      "signal_spacing_km": 1.04,
+      "historical_train_count": 86,
+      "avg_observed_travel_time_min": 4.3,
+      "from_station": "CNJ",
+      "to_station": "SBB"
+    },
+    {
+      "length_km": 7.07,
+      "line_type": "double",
+      "max_speed_kmph": 100,
+      "headway_minutes": 3,
+      "gradient_percent": 0.61,
+      "signal_spacing_km": 1.04,
+      "historical_train_count": 143,
+      "avg_observed_travel_time_min": 10.8,
+      "from_station": "SBB",
+      "to_station": "GZB"
+    },
+    {
+      "length_km": 9.39,
+      "line_type": "double",
+      "max_speed_kmph": 100,
+      "headway_minutes": 5,
+      "gradient_percent": 0.78,
+      "signal_spacing_km": 1.82,
+      "historical_train_count": 64,
+      "avg_observed_travel_time_min": 8.2,
+      "from_station": "GZB",
+      "to_station": "MIU"
+    },
+    {
+      "length_km": 6.81,
+      "line_type": "double",
+      "max_speed_kmph": 100,
+      "headway_minutes": 4,
+      "gradient_percent": 0.71,
+      "signal_spacing_km": 2.21,
+      "historical_train_count": 64,
+      "avg_observed_travel_time_min": 5.6,
+      "from_station": "MIU",
+      "to_station": "DER"
+    },
+    {
+      "length_km": 4.21,
+      "line_type": "double",
+      "max_speed_kmph": 80,
+      "headway_minutes": 3,
+      "gradient_percent": 0.84,
+      "signal_spacing_km": 1.51,
+      "historical_train_count": 64,
+      "avg_observed_travel_time_min": 3.6,
+      "from_station": "DER",
+      "to_station": "BRKY"
+    }
+  ],
+  "platforms": {
+    "ANVR": 2,
+    "ANVT": 4,
+    "CNJ": 4,
+    "SBB": 3,
+    "GZB": 2,
+    "MIU": 4,
+    "DER": 2,
+    "BRKY": 3
+  },
+  "trains": [
+    {
+      "train_number": "03686",
+      "train_name": "Delhi Gaya S",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "19:21:00",
+          "departure": "19:21:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "19:27:00",
+          "departure": "19:27:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "19:35:00",
+          "departure": "19:35:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "19:41:00",
+          "departure": "19:41:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "19:44:00",
+          "departure": "19:44:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "04053",
+      "train_name": "Anand Vihar T.-Jammu Tawi Special",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVT",
+          "arrival": "None",
+          "departure": "23:15:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "23:20:00",
+          "departure": "23:20:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "23:30:00",
+          "departure": "23:30:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "23:48:00",
+          "departure": "23:50:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "04202",
+      "train_name": "New Delhi-Lucknow tri-weekly Special",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "00:22:00",
+          "departure": "00:22:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "00:22:00",
+          "departure": "00:22:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "00:27:00",
+          "departure": "00:27:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "00:35:00",
+          "departure": "00:35:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "00:53:00",
+          "departure": "00:55:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "04204",
+      "train_name": "Delhi Jn. -Varanasi Special",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "19:55:00",
+          "departure": "19:55:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "20:08:00",
+          "departure": "20:13:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12004",
+      "train_name": "NewDelh-Lucknowi Swarn Shatabdi Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "06:29:00",
+          "departure": "06:29:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "06:29:00",
+          "departure": "06:29:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "06:31:00",
+          "departure": "06:31:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "06:35:00",
+          "departure": "06:35:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "06:44:00",
+          "departure": "06:46:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "06:52:00",
+          "departure": "06:52:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "06:56:00",
+          "departure": "06:56:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "06:59:00",
+          "departure": "06:59:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 1,
+      "priority_label": "Premium"
+    },
+    {
+      "train_number": "12017",
+      "train_name": "New Delhi-Dehradun Shatabdi",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "07:08:00",
+          "departure": "07:08:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "07:08:00",
+          "departure": "07:08:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "07:11:00",
+          "departure": "07:11:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "07:17:00",
+          "departure": "07:17:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "07:28:00",
+          "departure": "07:30:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 1,
+      "priority_label": "Premium"
+    },
+    {
+      "train_number": "12034",
+      "train_name": "New Delhi-Kanpur Shatabdi Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "16:13:00",
+          "departure": "16:13:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "16:13:00",
+          "departure": "16:13:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "16:17:00",
+          "departure": "16:17:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "16:22:00",
+          "departure": "16:22:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "16:31:00",
+          "departure": "16:33:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "16:39:00",
+          "departure": "16:39:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "16:43:00",
+          "departure": "16:43:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "16:46:00",
+          "departure": "16:46:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 1,
+      "priority_label": "Premium"
+    },
+    {
+      "train_number": "12055",
+      "train_name": "Dehradun Jan Shatabdi Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "15:31:00",
+          "departure": "15:31:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "15:31:00",
+          "departure": "15:31:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "15:34:00",
+          "departure": "15:34:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "15:39:00",
+          "departure": "15:39:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "15:46:00",
+          "departure": "15:48:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 1,
+      "priority_label": "Premium"
+    },
+    {
+      "train_number": "12171",
+      "train_name": "Mumbai LTT -Haridwar AC Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "07:51:00",
+          "departure": "07:51:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "07:51:00",
+          "departure": "07:51:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "07:53:00",
+          "departure": "07:53:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "07:57:00",
+          "departure": "07:57:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "08:05:00",
+          "departure": "08:05:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12204",
+      "train_name": "Amritsar Saharsa Garib Rath",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "11:27:00",
+          "departure": "11:27:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "11:27:00",
+          "departure": "11:27:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "11:29:00",
+          "departure": "11:29:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "11:32:00",
+          "departure": "11:32:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "11:39:00",
+          "departure": "11:39:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12205",
+      "train_name": "New Delhi-Dehradun AC Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "00:17:00",
+          "departure": "00:17:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "00:17:00",
+          "departure": "00:17:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "00:21:00",
+          "departure": "00:21:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "00:27:00",
+          "departure": "00:27:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "00:38:00",
+          "departure": "00:40:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12212",
+      "train_name": "Anand Vihar T.- Muzaffarpur Garib Rath",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVT",
+          "arrival": "None",
+          "departure": "21:10:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "21:12:00",
+          "departure": "21:12:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "21:16:00",
+          "departure": "21:16:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "21:24:00",
+          "departure": "21:24:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12226",
+      "train_name": "Kaifiat Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "19:32:00",
+          "departure": "19:32:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "19:38:00",
+          "departure": "19:38:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "19:47:00",
+          "departure": "19:47:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "19:53:00",
+          "departure": "19:53:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "19:57:00",
+          "departure": "19:57:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12230",
+      "train_name": "Lucknow Mail",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "22:27:00",
+          "departure": "22:27:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "22:27:00",
+          "departure": "22:27:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "22:30:00",
+          "departure": "22:30:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "22:35:00",
+          "departure": "22:35:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "22:46:00",
+          "departure": "22:48:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12234",
+      "train_name": "NewDelhi-Lucknow AC Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "23:47:00",
+          "departure": "23:47:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "23:47:00",
+          "departure": "23:47:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "23:50:00",
+          "departure": "23:50:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "23:54:00",
+          "departure": "23:54:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "00:05:00",
+          "departure": "00:07:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12236",
+      "train_name": "NEW DELHI - DIBRUGARH Rajdhani Exp",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "09:42:00",
+          "departure": "09:42:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "09:42:00",
+          "departure": "09:42:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "09:44:00",
+          "departure": "09:44:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "09:47:00",
+          "departure": "09:47:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "09:54:00",
+          "departure": "09:54:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 1,
+      "priority_label": "Premium"
+    },
+    {
+      "train_number": "12260",
+      "train_name": "New Delhi-Sealdah AC Duronto Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "20:13:00",
+          "departure": "20:13:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "20:13:00",
+          "departure": "20:13:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "20:15:00",
+          "departure": "20:15:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "20:17:00",
+          "departure": "20:17:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "20:22:00",
+          "departure": "20:22:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "20:29:00",
+          "departure": "20:29:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "20:33:00",
+          "departure": "20:33:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "20:36:00",
+          "departure": "20:36:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 1,
+      "priority_label": "Premium"
+    },
+    {
+      "train_number": "12272",
+      "train_name": "New Delhi-Lucknow AC Duronto Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "23:41:00",
+          "departure": "23:41:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "23:42:00",
+          "departure": "23:42:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "23:44:00",
+          "departure": "23:44:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "23:47:00",
+          "departure": "23:47:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "23:54:00",
+          "departure": "23:54:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 1,
+      "priority_label": "Premium"
+    },
+    {
+      "train_number": "12274",
+      "train_name": "New Delhi-Howrah Duronto Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "13:09:00",
+          "departure": "13:09:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "13:09:00",
+          "departure": "13:09:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "13:10:00",
+          "departure": "13:10:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "13:13:00",
+          "departure": "13:13:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "13:18:00",
+          "departure": "13:18:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "13:25:00",
+          "departure": "13:25:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "13:30:00",
+          "departure": "13:30:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "13:33:00",
+          "departure": "13:33:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 1,
+      "priority_label": "Premium"
+    },
+    {
+      "train_number": "12276",
+      "train_name": "New Delhi-Allahabad Duronto Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "23:09:00",
+          "departure": "23:09:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "23:09:00",
+          "departure": "23:09:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "23:10:00",
+          "departure": "23:10:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "23:13:00",
+          "departure": "23:13:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "23:18:00",
+          "departure": "23:18:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "23:25:00",
+          "departure": "23:25:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "23:30:00",
+          "departure": "23:30:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "23:33:00",
+          "departure": "23:33:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 1,
+      "priority_label": "Premium"
+    },
+    {
+      "train_number": "12282",
+      "train_name": "New Delhi-Bhubaneswar Duronto Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "13:09:00",
+          "departure": "13:09:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "13:10:00",
+          "departure": "13:10:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "13:11:00",
+          "departure": "13:11:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "13:14:00",
+          "departure": "13:14:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "13:20:00",
+          "departure": "13:20:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "13:28:00",
+          "departure": "13:28:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "13:33:00",
+          "departure": "13:33:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "13:36:00",
+          "departure": "13:36:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 1,
+      "priority_label": "Premium"
+    },
+    {
+      "train_number": "12287",
+      "train_name": "Kochuveli-Dehradun Weekly Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "11:18:00",
+          "departure": "11:18:00",
+          "day": 3.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "11:18:00",
+          "departure": "11:18:00",
+          "day": 3.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "11:22:00",
+          "departure": "11:22:00",
+          "day": 3.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "11:28:00",
+          "departure": "11:28:00",
+          "day": 3.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "11:40:00",
+          "departure": "11:42:00",
+          "day": 3.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12302",
+      "train_name": "New Delhi-Howrah Rajdhani Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "17:08:00",
+          "departure": "17:08:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "17:08:00",
+          "departure": "17:08:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "17:09:00",
+          "departure": "17:09:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "17:11:00",
+          "departure": "17:11:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "17:16:00",
+          "departure": "17:16:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "17:22:00",
+          "departure": "17:22:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "17:27:00",
+          "departure": "17:27:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "17:29:00",
+          "departure": "17:29:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 1,
+      "priority_label": "Premium"
+    },
+    {
+      "train_number": "12304",
+      "train_name": "Poorva Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "16:37:00",
+          "departure": "16:37:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "16:37:00",
+          "departure": "16:37:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "16:40:00",
+          "departure": "16:40:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "16:46:00",
+          "departure": "16:46:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "16:56:00",
+          "departure": "16:56:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "17:10:00",
+          "departure": "17:10:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "17:20:00",
+          "departure": "17:20:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "17:26:00",
+          "departure": "17:26:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12306",
+      "train_name": "New Delhi-Howrah Rajdhani Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "17:08:00",
+          "departure": "17:08:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "17:08:00",
+          "departure": "17:08:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "17:09:00",
+          "departure": "17:09:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "17:11:00",
+          "departure": "17:11:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "17:16:00",
+          "departure": "17:16:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "17:22:00",
+          "departure": "17:22:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "17:27:00",
+          "departure": "17:27:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "17:29:00",
+          "departure": "17:29:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 1,
+      "priority_label": "Premium"
+    },
+    {
+      "train_number": "12310",
+      "train_name": "New Delhi Rajendra Nagar Rajdhani Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "17:18:00",
+          "departure": "17:18:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "17:18:00",
+          "departure": "17:18:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "17:19:00",
+          "departure": "17:19:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "17:21:00",
+          "departure": "17:21:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "17:26:00",
+          "departure": "17:26:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "17:32:00",
+          "departure": "17:32:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "17:37:00",
+          "departure": "17:37:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "17:39:00",
+          "departure": "17:39:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 1,
+      "priority_label": "Premium"
+    },
+    {
+      "train_number": "12312",
+      "train_name": "Kalka Mail",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "07:25:00",
+          "departure": "07:25:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "07:37:00",
+          "departure": "07:39:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "07:50:00",
+          "departure": "07:50:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "07:57:00",
+          "departure": "07:57:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "08:01:00",
+          "departure": "08:01:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12314",
+      "train_name": "NEW DELHI - KOL SEALDAH Rajdhani Exp",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "16:38:00",
+          "departure": "16:38:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "16:40:00",
+          "departure": "16:40:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "16:42:00",
+          "departure": "16:42:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "16:47:00",
+          "departure": "16:47:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "16:54:00",
+          "departure": "16:54:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "16:58:00",
+          "departure": "16:58:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "17:01:00",
+          "departure": "17:01:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 1,
+      "priority_label": "Premium"
+    },
+    {
+      "train_number": "12324",
+      "train_name": "New Delhi-Howrah SF Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "07:20:00",
+          "departure": "07:20:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "07:20:00",
+          "departure": "07:20:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "07:22:00",
+          "departure": "07:22:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "07:25:00",
+          "departure": "07:25:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "07:31:00",
+          "departure": "07:31:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "07:40:00",
+          "departure": "07:40:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "07:45:00",
+          "departure": "07:45:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "07:49:00",
+          "departure": "07:49:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12330",
+      "train_name": "West Bengal Sampark Kranti Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "19:21:00",
+          "departure": "19:21:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "19:27:00",
+          "departure": "19:27:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "19:35:00",
+          "departure": "19:35:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "19:41:00",
+          "departure": "19:41:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "19:44:00",
+          "departure": "19:44:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12350",
+      "train_name": "NewDelhi-Bhagalpur Weekly SF Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "23:56:00",
+          "departure": "23:56:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "23:56:00",
+          "departure": "23:56:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "23:58:00",
+          "departure": "23:58:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "00:01:00",
+          "departure": "00:01:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "00:07:00",
+          "departure": "00:07:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "00:16:00",
+          "departure": "00:16:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "00:22:00",
+          "departure": "00:22:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "00:26:00",
+          "departure": "00:26:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12368",
+      "train_name": "Vikramshila Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVT",
+          "arrival": "None",
+          "departure": "14:40:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "14:42:00",
+          "departure": "14:42:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "14:46:00",
+          "departure": "14:46:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "14:53:00",
+          "departure": "14:53:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "15:03:00",
+          "departure": "15:03:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "15:10:00",
+          "departure": "15:10:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "15:14:00",
+          "departure": "15:14:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12380",
+      "train_name": "Amritsar - Sealdah Superfast Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "19:21:00",
+          "departure": "19:21:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "19:26:00",
+          "departure": "19:26:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "19:34:00",
+          "departure": "19:34:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "19:40:00",
+          "departure": "19:40:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "19:43:00",
+          "departure": "19:43:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12382",
+      "train_name": "Poorva Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "16:37:00",
+          "departure": "16:37:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "16:37:00",
+          "departure": "16:37:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "16:40:00",
+          "departure": "16:40:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "16:46:00",
+          "departure": "16:46:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "16:56:00",
+          "departure": "16:56:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "17:10:00",
+          "departure": "17:10:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "17:20:00",
+          "departure": "17:20:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "17:26:00",
+          "departure": "17:26:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12392",
+      "train_name": "Shramjeevi Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "13:33:00",
+          "departure": "13:33:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "13:33:00",
+          "departure": "13:33:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "13:36:00",
+          "departure": "13:36:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "13:42:00",
+          "departure": "13:42:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "13:53:00",
+          "departure": "13:55:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12394",
+      "train_name": "Sampoorna Kranti Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "17:40:00",
+          "departure": "17:40:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "17:40:00",
+          "departure": "17:40:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "17:42:00",
+          "departure": "17:42:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "17:45:00",
+          "departure": "17:45:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "17:50:00",
+          "departure": "17:50:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "17:58:00",
+          "departure": "17:58:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "18:03:00",
+          "departure": "18:03:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "18:07:00",
+          "departure": "18:07:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12398",
+      "train_name": "Mahabodhi Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "14:20:00",
+          "departure": "14:20:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "14:20:00",
+          "departure": "14:20:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "14:22:00",
+          "departure": "14:22:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "14:24:00",
+          "departure": "14:24:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "14:30:00",
+          "departure": "14:30:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "14:38:00",
+          "departure": "14:38:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "14:43:00",
+          "departure": "14:43:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "14:47:00",
+          "departure": "14:47:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12402",
+      "train_name": "Magadh Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "20:21:00",
+          "departure": "20:21:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "20:21:00",
+          "departure": "20:21:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "20:23:00",
+          "departure": "20:23:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "20:27:00",
+          "departure": "20:27:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "20:33:00",
+          "departure": "20:33:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "20:42:00",
+          "departure": "20:42:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "20:48:00",
+          "departure": "20:48:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "20:52:00",
+          "departure": "20:52:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12418",
+      "train_name": "Prayagraj Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "21:42:00",
+          "departure": "21:42:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "21:42:00",
+          "departure": "21:42:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "21:45:00",
+          "departure": "21:45:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "21:49:00",
+          "departure": "21:49:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "22:00:00",
+          "departure": "22:02:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "22:09:00",
+          "departure": "22:09:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "22:14:00",
+          "departure": "22:14:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "22:17:00",
+          "departure": "22:17:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12420",
+      "train_name": "Gomti Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "12:57:00",
+          "departure": "12:57:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "12:57:00",
+          "departure": "12:57:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "13:00:00",
+          "departure": "13:00:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "13:04:00",
+          "departure": "13:04:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "13:15:00",
+          "departure": "13:17:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "13:25:00",
+          "departure": "13:25:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "13:30:00",
+          "departure": "13:30:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "13:33:00",
+          "departure": "13:33:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12424",
+      "train_name": "NEW DELHI - DIBRUGARH TOWN Rajdhani Exp",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "14:08:00",
+          "departure": "14:08:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "14:09:00",
+          "departure": "14:09:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "14:11:00",
+          "departure": "14:11:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "14:16:00",
+          "departure": "14:16:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "14:22:00",
+          "departure": "14:22:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "14:27:00",
+          "departure": "14:27:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "14:29:00",
+          "departure": "14:29:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 1,
+      "priority_label": "Premium"
+    },
+    {
+      "train_number": "12428",
+      "train_name": "DELHI ANAND VIHAR - REWA SF Exp",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVT",
+          "arrival": "00:20:00",
+          "departure": "00:20:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "00:31:00",
+          "departure": "00:31:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "00:47:00",
+          "departure": "00:49:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "00:57:00",
+          "departure": "00:57:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "01:02:00",
+          "departure": "01:02:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "01:05:00",
+          "departure": "01:05:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12436",
+      "train_name": "NEW DELHI - DIBRUGARH TOWN Rajdhani Exp",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "09:42:00",
+          "departure": "09:42:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "09:42:00",
+          "departure": "09:42:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "09:44:00",
+          "departure": "09:44:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "09:47:00",
+          "departure": "09:47:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "09:54:00",
+          "departure": "09:54:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 1,
+      "priority_label": "Premium"
+    },
+    {
+      "train_number": "12452",
+      "train_name": "Shram Shakti Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "23:50:00",
+          "departure": "23:50:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "23:51:00",
+          "departure": "23:51:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "23:52:00",
+          "departure": "23:52:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "23:56:00",
+          "departure": "23:56:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "00:02:00",
+          "departure": "00:02:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "00:11:00",
+          "departure": "00:11:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "00:16:00",
+          "departure": "00:16:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "00:20:00",
+          "departure": "00:20:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12454",
+      "train_name": "New Delhi-Ranchi Rajdhani Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "16:18:00",
+          "departure": "16:18:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "16:18:00",
+          "departure": "16:18:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "16:20:00",
+          "departure": "16:20:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "16:22:00",
+          "departure": "16:22:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "16:27:00",
+          "departure": "16:27:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "16:34:00",
+          "departure": "16:34:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "16:38:00",
+          "departure": "16:38:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "16:41:00",
+          "departure": "16:41:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 1,
+      "priority_label": "Premium"
+    },
+    {
+      "train_number": "12488",
+      "train_name": "Seemanchal Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVT",
+          "arrival": "None",
+          "departure": "07:40:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "07:44:00",
+          "departure": "07:44:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "07:52:00",
+          "departure": "07:52:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "08:06:00",
+          "departure": "08:08:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "08:16:00",
+          "departure": "08:16:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "08:21:00",
+          "departure": "08:21:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "08:24:00",
+          "departure": "08:24:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12502",
+      "train_name": "NEW DELHI - GUWAHATI Poorvottar Sampark Kranti Exp",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "23:56:00",
+          "departure": "23:56:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "23:58:00",
+          "departure": "23:58:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "00:01:00",
+          "departure": "00:01:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "00:07:00",
+          "departure": "00:07:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "00:16:00",
+          "departure": "00:16:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "00:22:00",
+          "departure": "00:22:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "00:26:00",
+          "departure": "00:26:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12506",
+      "train_name": "DELHI ANAND VIHAR - GUWAHATI North East Exp",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVT",
+          "arrival": "None",
+          "departure": "06:50:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "06:52:00",
+          "departure": "06:52:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "06:55:00",
+          "departure": "06:55:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "07:01:00",
+          "departure": "07:01:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "07:09:00",
+          "departure": "07:09:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "07:15:00",
+          "departure": "07:15:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "07:19:00",
+          "departure": "07:19:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12524",
+      "train_name": "New Delhi New Jalpaiguri SuperFast Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "15:31:00",
+          "departure": "15:31:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "15:31:00",
+          "departure": "15:31:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "15:35:00",
+          "departure": "15:35:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "15:41:00",
+          "departure": "15:41:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "15:53:00",
+          "departure": "15:55:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12554",
+      "train_name": "Vaishali SF Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "20:05:00",
+          "departure": "20:05:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "20:05:00",
+          "departure": "20:05:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "20:07:00",
+          "departure": "20:07:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "20:12:00",
+          "departure": "20:12:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "20:21:00",
+          "departure": "20:23:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "20:32:00",
+          "departure": "20:32:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "20:38:00",
+          "departure": "20:38:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "20:41:00",
+          "departure": "20:41:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12556",
+      "train_name": "Gorakhdham Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "20:36:00",
+          "departure": "20:36:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "20:36:00",
+          "departure": "20:36:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "20:38:00",
+          "departure": "20:38:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "20:42:00",
+          "departure": "20:42:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "20:49:00",
+          "departure": "20:49:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "20:58:00",
+          "departure": "20:58:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "21:05:00",
+          "departure": "21:05:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "21:09:00",
+          "departure": "21:09:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12558",
+      "train_name": "Sapt Kranti SF Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVT",
+          "arrival": "None",
+          "departure": "14:50:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "14:52:00",
+          "departure": "14:52:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "14:56:00",
+          "departure": "14:56:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "15:04:00",
+          "departure": "15:04:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12560",
+      "train_name": "Shiv Ganga Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "18:55:00",
+          "departure": "18:55:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "18:55:00",
+          "departure": "18:55:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "18:57:00",
+          "departure": "18:57:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "19:00:00",
+          "departure": "19:00:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "19:06:00",
+          "departure": "19:06:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "19:14:00",
+          "departure": "19:14:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "19:20:00",
+          "departure": "19:20:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "19:23:00",
+          "departure": "19:23:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12562",
+      "train_name": "Swatantrata Sainani Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "20:51:00",
+          "departure": "20:51:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "20:51:00",
+          "departure": "20:51:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "20:53:00",
+          "departure": "20:53:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "20:56:00",
+          "departure": "20:56:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "21:03:00",
+          "departure": "21:03:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "21:12:00",
+          "departure": "21:12:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "21:18:00",
+          "departure": "21:18:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "21:22:00",
+          "departure": "21:22:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12566",
+      "train_name": "Bihar Sampark Kranti Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "14:40:00",
+          "departure": "14:40:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "14:40:00",
+          "departure": "14:40:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "14:41:00",
+          "departure": "14:41:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "14:44:00",
+          "departure": "14:44:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "14:50:00",
+          "departure": "14:50:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "14:58:00",
+          "departure": "14:58:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "15:03:00",
+          "departure": "15:03:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "15:07:00",
+          "departure": "15:07:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12570",
+      "train_name": "Anand Vihar Terminus-Jaynagar Garib Rath Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVT",
+          "arrival": "None",
+          "departure": "17:00:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "17:02:00",
+          "departure": "17:02:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "17:06:00",
+          "departure": "17:06:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "17:13:00",
+          "departure": "17:13:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "17:23:00",
+          "departure": "17:23:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "17:30:00",
+          "departure": "17:30:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "17:34:00",
+          "departure": "17:34:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12687",
+      "train_name": "Chennai Dehradun Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "21:30:00",
+          "departure": "21:30:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "21:31:00",
+          "departure": "21:31:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "21:35:00",
+          "departure": "21:35:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "21:42:00",
+          "departure": "21:42:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "21:55:00",
+          "departure": "21:58:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12687-Slip",
+      "train_name": "Chennai Chandigarh Express Slip",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "21:30:00",
+          "departure": "21:30:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "21:30:00",
+          "departure": "21:30:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "21:34:00",
+          "departure": "21:34:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "21:41:00",
+          "departure": "21:41:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "21:55:00",
+          "departure": "21:58:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12802",
+      "train_name": "Purushottam SF Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "22:31:00",
+          "departure": "22:31:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "22:31:00",
+          "departure": "22:31:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "22:33:00",
+          "departure": "22:33:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "22:36:00",
+          "departure": "22:36:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "22:43:00",
+          "departure": "22:43:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "22:52:00",
+          "departure": "22:52:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "22:58:00",
+          "departure": "22:58:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "23:02:00",
+          "departure": "23:02:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12816",
+      "train_name": "New Delhi-Puri Superfast Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "06:40:00",
+          "departure": "06:40:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "06:40:00",
+          "departure": "06:40:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "06:42:00",
+          "departure": "06:42:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "06:45:00",
+          "departure": "06:45:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "06:51:00",
+          "departure": "06:51:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "06:59:00",
+          "departure": "06:59:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "07:05:00",
+          "departure": "07:05:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "07:09:00",
+          "departure": "07:09:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12818",
+      "train_name": "Jharkhand Swarna Jayanti Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVT",
+          "arrival": "None",
+          "departure": "19:50:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "19:52:00",
+          "departure": "19:52:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "19:55:00",
+          "departure": "19:55:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "20:01:00",
+          "departure": "20:01:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "20:09:00",
+          "departure": "20:09:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "20:15:00",
+          "departure": "20:15:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "20:19:00",
+          "departure": "20:19:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12820",
+      "train_name": "Orissa Sampark Kranti Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "07:20:00",
+          "departure": "07:20:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "07:20:00",
+          "departure": "07:20:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "07:22:00",
+          "departure": "07:22:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "07:25:00",
+          "departure": "07:25:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "07:31:00",
+          "departure": "07:31:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "07:39:00",
+          "departure": "07:39:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "07:45:00",
+          "departure": "07:45:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "07:49:00",
+          "departure": "07:49:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12826",
+      "train_name": "Jharkhand Sampark Kranti Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "07:20:00",
+          "departure": "07:20:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "07:20:00",
+          "departure": "07:20:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "07:22:00",
+          "departure": "07:22:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "07:25:00",
+          "departure": "07:25:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "07:31:00",
+          "departure": "07:31:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "07:39:00",
+          "departure": "07:39:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "07:45:00",
+          "departure": "07:45:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "07:49:00",
+          "departure": "07:49:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12874",
+      "train_name": "Jharkhand Swarna Jayanti Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVT",
+          "arrival": "None",
+          "departure": "19:50:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "19:52:00",
+          "departure": "19:52:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "19:55:00",
+          "departure": "19:55:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "20:01:00",
+          "departure": "20:01:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "20:09:00",
+          "departure": "20:09:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "20:15:00",
+          "departure": "20:15:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "20:18:00",
+          "departure": "20:18:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12876",
+      "train_name": "NEW DELHI - PURI Neelanchal SF Exp",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "06:40:00",
+          "departure": "06:40:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "06:42:00",
+          "departure": "06:42:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "06:45:00",
+          "departure": "06:45:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "06:51:00",
+          "departure": "06:51:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "06:59:00",
+          "departure": "06:59:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "07:05:00",
+          "departure": "07:05:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "07:09:00",
+          "departure": "07:09:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12878",
+      "train_name": "New Delhi-Ranchi Garib Rath",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "16:18:00",
+          "departure": "16:18:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "16:18:00",
+          "departure": "16:18:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "16:20:00",
+          "departure": "16:20:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "16:22:00",
+          "departure": "16:22:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "16:27:00",
+          "departure": "16:27:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "16:34:00",
+          "departure": "16:34:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "16:38:00",
+          "departure": "16:38:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "16:41:00",
+          "departure": "16:41:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12903",
+      "train_name": "Golden Temple Mail",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "19:22:00",
+          "departure": "19:22:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "19:23:00",
+          "departure": "19:23:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "19:27:00",
+          "departure": "19:27:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "19:36:00",
+          "departure": "19:36:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "19:50:00",
+          "departure": "19:55:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "12911",
+      "train_name": "Valsad-Haridwar Exp",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "11:18:00",
+          "departure": "11:18:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "11:18:00",
+          "departure": "11:18:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "11:22:00",
+          "departure": "11:22:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "11:28:00",
+          "departure": "11:28:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "11:40:00",
+          "departure": "11:42:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "13040",
+      "train_name": "Janata Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "16:02:00",
+          "departure": "16:04:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "16:25:00",
+          "departure": "16:27:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "16:40:00",
+          "departure": "16:40:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "16:48:00",
+          "departure": "16:50:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "16:57:00",
+          "departure": "16:57:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "13112",
+      "train_name": "Lal Quila Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "21:19:00",
+          "departure": "21:19:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "21:33:00",
+          "departure": "21:35:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "21:47:00",
+          "departure": "21:47:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "21:54:00",
+          "departure": "21:54:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "21:59:00",
+          "departure": "21:59:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "13258",
+      "train_name": "ANAND VIHAR DELHI - DANAPUR JanSadharan Exp",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVT",
+          "arrival": "None",
+          "departure": "None",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "None",
+          "departure": "None",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "None",
+          "departure": "None",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "None",
+          "departure": "None",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "13414",
+      "train_name": "Farakka Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "22:14:00",
+          "departure": "22:14:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "22:26:00",
+          "departure": "22:28:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "22:35:00",
+          "departure": "22:35:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "22:40:00",
+          "departure": "22:40:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "22:44:00",
+          "departure": "22:44:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "13484",
+      "train_name": "Farakka Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "22:14:00",
+          "departure": "22:14:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "22:26:00",
+          "departure": "22:28:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "22:35:00",
+          "departure": "22:35:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "22:40:00",
+          "departure": "22:40:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "22:44:00",
+          "departure": "22:44:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14004",
+      "train_name": "New Delhi-New Farakka Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "18:12:00",
+          "departure": "18:12:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "18:13:00",
+          "departure": "18:13:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "18:17:00",
+          "departure": "18:17:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "18:26:00",
+          "departure": "18:26:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "18:43:00",
+          "departure": "18:45:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14006",
+      "train_name": "Lichhavi Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVT",
+          "arrival": "None",
+          "departure": "15:45:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "15:49:00",
+          "departure": "15:49:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "15:57:00",
+          "departure": "15:57:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "16:11:00",
+          "departure": "16:13:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "16:22:00",
+          "departure": "16:22:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "16:28:00",
+          "departure": "16:30:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "16:36:00",
+          "departure": "16:36:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14008",
+      "train_name": "Old Delhi-Muzaffarpur Sadbhavana Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "16:50:00",
+          "departure": "16:50:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "17:05:00",
+          "departure": "17:08:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14012",
+      "train_name": "Anand Vihar-Kathgodam AC Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVT",
+          "arrival": "None",
+          "departure": "06:00:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "06:04:00",
+          "departure": "06:04:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "06:12:00",
+          "departure": "06:12:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "06:26:00",
+          "departure": "06:28:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14014",
+      "train_name": "Sadbhavna Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "16:50:00",
+          "departure": "16:50:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "17:05:00",
+          "departure": "17:08:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14016",
+      "train_name": "Sadbhavana Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "16:50:00",
+          "departure": "16:50:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "17:05:00",
+          "departure": "17:08:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14018",
+      "train_name": "Sadbhavana Expres",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "16:50:00",
+          "departure": "16:50:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "17:05:00",
+          "departure": "17:08:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14041",
+      "train_name": "DELHI SARAI ROHILLA - DEHRADUN Mussoorie Exp",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "22:51:00",
+          "departure": "22:51:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "23:02:00",
+          "departure": "23:04:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14041-Slip",
+      "train_name": "Mussoorie Express Slip",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "22:49:00",
+          "departure": "22:49:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "23:02:00",
+          "departure": "23:04:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14044",
+      "train_name": "OLD DELHI - KOTDWAR Garhwal Exp",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "07:51:00",
+          "departure": "07:51:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "08:02:00",
+          "departure": "08:05:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14056",
+      "train_name": "OLD DELHI - DIBRUGARH Brahmaputra Exp",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "23:44:00",
+          "departure": "23:44:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "23:51:00",
+          "departure": "23:51:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "00:01:00",
+          "departure": "00:01:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "00:08:00",
+          "departure": "00:08:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "00:12:00",
+          "departure": "00:12:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14084",
+      "train_name": "Sikkim Mahananda Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "07:11:00",
+          "departure": "07:11:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "07:23:00",
+          "departure": "07:28:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "07:36:00",
+          "departure": "07:36:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "07:41:00",
+          "departure": "07:41:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "07:44:00",
+          "departure": "07:44:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14206",
+      "train_name": "Delhi-Faizabad Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "19:05:00",
+          "departure": "19:05:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "19:18:00",
+          "departure": "19:20:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14208",
+      "train_name": "Padmavat Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "20:17:00",
+          "departure": "20:17:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "20:30:00",
+          "departure": "20:32:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14218",
+      "train_name": "Chandigarh Allahabad Unchahar Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "21:59:00",
+          "departure": "22:01:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "22:13:00",
+          "departure": "22:15:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "22:22:00",
+          "departure": "22:22:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "22:27:00",
+          "departure": "22:27:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "22:31:00",
+          "departure": "22:31:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14258",
+      "train_name": "Kashi Vishwanath Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "11:58:00",
+          "departure": "11:58:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "11:58:00",
+          "departure": "11:58:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "12:01:00",
+          "departure": "12:01:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "12:07:00",
+          "departure": "12:07:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "12:18:00",
+          "departure": "12:20:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14309",
+      "train_name": "Ujjaini Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "11:46:00",
+          "departure": "11:46:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "11:47:00",
+          "departure": "11:47:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "11:50:00",
+          "departure": "11:50:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "11:56:00",
+          "departure": "11:56:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "12:05:00",
+          "departure": "12:10:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14312",
+      "train_name": "BHUJ - BAREILLY Ala Hazrat Exp",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "15:23:00",
+          "departure": "15:23:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "15:36:00",
+          "departure": "15:38:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14316",
+      "train_name": "NewDelhi-Bareilly InterCity",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "16:55:00",
+          "departure": "16:57:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "16:57:00",
+          "departure": "16:57:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "16:59:00",
+          "departure": "16:59:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "17:02:00",
+          "departure": "17:04:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "17:20:00",
+          "departure": "17:25:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14317",
+      "train_name": "INDORE - DEHRADUN Exp",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "11:46:00",
+          "departure": "11:46:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "11:49:00",
+          "departure": "11:49:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "11:55:00",
+          "departure": "11:55:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "12:05:00",
+          "departure": "12:10:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14322",
+      "train_name": "BHUJ - BAREILLY Ala Hazrat Exp",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "15:24:00",
+          "departure": "15:24:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "15:36:00",
+          "departure": "15:38:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14556",
+      "train_name": "Delhi-Bareilly Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "06:40:00",
+          "departure": "06:42:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "07:05:00",
+          "departure": "07:08:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14645",
+      "train_name": "Shalimar Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "16:17:00",
+          "departure": "16:17:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "16:30:00",
+          "departure": "16:32:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14650",
+      "train_name": "Saryu Yamuna Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "21:49:00",
+          "departure": "21:49:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "22:05:00",
+          "departure": "22:07:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14674",
+      "train_name": "Shaheed Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "21:49:00",
+          "departure": "21:49:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "22:05:00",
+          "departure": "22:07:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14681",
+      "train_name": "New Delhi-Jalandhar Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "15:07:00",
+          "departure": "15:07:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "15:07:00",
+          "departure": "15:07:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "15:10:00",
+          "departure": "15:10:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "15:14:00",
+          "departure": "15:14:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "15:25:00",
+          "departure": "15:27:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "14724",
+      "train_name": "Kalindi Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "22:29:00",
+          "departure": "22:29:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "22:42:00",
+          "departure": "22:44:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "22:51:00",
+          "departure": "22:51:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "22:56:00",
+          "departure": "22:56:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "22:59:00",
+          "departure": "22:59:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "15013",
+      "train_name": "Ranikhet Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "23:04:00",
+          "departure": "23:06:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "23:22:00",
+          "departure": "23:26:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "15013-Slip",
+      "train_name": "Ranikhet Express Slip",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "22:58:00",
+          "departure": "23:00:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "23:22:00",
+          "departure": "23:24:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "15035",
+      "train_name": "Uttarakhand Sampark Kranti Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "16:13:00",
+          "departure": "16:13:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "16:20:00",
+          "departure": "16:20:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "15035-Slip",
+      "train_name": "Uttarakhand Sampark Kranti Express Slip",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "16:13:00",
+          "departure": "16:13:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "16:20:00",
+          "departure": "16:20:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "15274",
+      "train_name": "Satyagraha Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "17:43:00",
+          "departure": "17:45:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "18:03:00",
+          "departure": "18:08:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "15280",
+      "train_name": "Poorabiya Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "17:23:00",
+          "departure": "17:23:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "17:42:00",
+          "departure": "17:50:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "15610",
+      "train_name": "Awadh Assam Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "08:25:00",
+          "departure": "08:25:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "08:42:00",
+          "departure": "08:50:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "15708",
+      "train_name": "Amrapali Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "15:41:00",
+          "departure": "15:41:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "15:46:00",
+          "departure": "15:46:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "15:54:00",
+          "departure": "15:54:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "15:59:00",
+          "departure": "15:59:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "16:03:00",
+          "departure": "16:03:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "15716",
+      "train_name": "Garib Nawaz Express Slip",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "20:56:00",
+          "departure": "20:56:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "21:04:00",
+          "departure": "21:04:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "15716-Slip",
+      "train_name": "Garib Nawaz Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "20:56:00",
+          "departure": "20:56:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "21:04:00",
+          "departure": "21:04:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "18102",
+      "train_name": "Jammu-Rourkela Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "05:22:00",
+          "departure": "05:22:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "05:35:00",
+          "departure": "05:37:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "05:45:00",
+          "departure": "05:45:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "05:51:00",
+          "departure": "05:51:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "05:54:00",
+          "departure": "05:54:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "18102-Slip",
+      "train_name": "Jammu-Tata Muri Express Slip",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "05:22:00",
+          "departure": "05:22:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "05:35:00",
+          "departure": "05:37:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "05:45:00",
+          "departure": "05:45:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "05:51:00",
+          "departure": "05:51:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "05:54:00",
+          "departure": "05:54:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "18237",
+      "train_name": "Chhattisgarh Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "20:28:00",
+          "departure": "20:28:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "20:28:00",
+          "departure": "20:28:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "20:31:00",
+          "departure": "20:31:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "20:35:00",
+          "departure": "20:36:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "21:00:00",
+          "departure": "21:05:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "18477",
+      "train_name": "Utkal Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "14:51:00",
+          "departure": "14:51:00",
+          "day": 3.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "14:51:00",
+          "departure": "14:51:00",
+          "day": 3.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "14:54:00",
+          "departure": "14:54:00",
+          "day": 3.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "15:00:00",
+          "departure": "15:00:00",
+          "day": 3.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "15:11:00",
+          "departure": "15:13:00",
+          "day": 3.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "19105",
+      "train_name": "Ahmedabad-Haridwar Mail",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "06:02:00",
+          "departure": "06:02:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "06:15:00",
+          "departure": "06:17:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "19269",
+      "train_name": "Porbandar Muzaffarpur Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "20:56:00",
+          "departure": "20:56:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "21:04:00",
+          "departure": "21:04:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "19601",
+      "train_name": "Ajmer New Jalpaiguri Weekly Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "15:21:00",
+          "departure": "15:21:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "15:28:00",
+          "departure": "15:28:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "19603",
+      "train_name": "Ajmer-Sultanpur Weekly Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "00:55:00",
+          "departure": "00:55:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "01:03:00",
+          "departure": "01:03:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "22406",
+      "train_name": "AnandVihar Terminal-Bhagalpur Garib Rath",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVT",
+          "arrival": "None",
+          "departure": "17:00:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "17:02:00",
+          "departure": "17:02:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "17:06:00",
+          "departure": "17:06:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "17:14:00",
+          "departure": "17:14:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "17:25:00",
+          "departure": "17:25:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "17:32:00",
+          "departure": "17:32:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "17:36:00",
+          "departure": "17:36:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "22408",
+      "train_name": "Delhi Anand Vihar Terminus-Varanasi Garib Rath",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVT",
+          "arrival": "None",
+          "departure": "18:10:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "18:12:00",
+          "departure": "18:12:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "18:16:00",
+          "departure": "18:16:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "18:24:00",
+          "departure": "18:24:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "22410",
+      "train_name": "Anand ViharT Delhi-Sasaram GaribRath Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVT",
+          "arrival": "None",
+          "departure": "19:15:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "19:19:00",
+          "departure": "19:19:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "19:25:00",
+          "departure": "19:25:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "19:38:00",
+          "departure": "19:40:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "19:48:00",
+          "departure": "19:48:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "19:53:00",
+          "departure": "19:53:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "19:57:00",
+          "departure": "19:57:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    },
+    {
+      "train_number": "22424",
+      "train_name": "New Delhi-Guwahati Rajdhani Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "14:08:00",
+          "departure": "14:08:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "14:08:00",
+          "departure": "14:08:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "14:09:00",
+          "departure": "14:09:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "14:11:00",
+          "departure": "14:11:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "14:16:00",
+          "departure": "14:16:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "14:22:00",
+          "departure": "14:22:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "14:27:00",
+          "departure": "14:27:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "14:29:00",
+          "departure": "14:29:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 1,
+      "priority_label": "Premium"
+    },
+    {
+      "train_number": "22812",
+      "train_name": "New Delhi-Bhubaneswar Rajdhani Express",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "17:28:00",
+          "departure": "17:28:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "17:28:00",
+          "departure": "17:28:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "17:29:00",
+          "departure": "17:29:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "17:31:00",
+          "departure": "17:31:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "17:36:00",
+          "departure": "17:36:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "MIU",
+          "arrival": "17:42:00",
+          "departure": "17:42:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "DER",
+          "arrival": "17:47:00",
+          "departure": "17:47:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "BRKY",
+          "arrival": "17:49:00",
+          "departure": "17:49:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 1,
+      "priority_label": "Premium"
+    },
+    {
+      "train_number": "54022",
+      "train_name": "Tilak Bridge Delhi Bulandshahr Passenger",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "19:21:00",
+          "departure": "19:22:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "19:35:00",
+          "departure": "19:37:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 3,
+      "priority_label": "Passenger"
+    },
+    {
+      "train_number": "54056",
+      "train_name": "Delhi Moradabad Passenger",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "10:11:00",
+          "departure": "10:12:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "10:25:00",
+          "departure": "10:28:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 3,
+      "priority_label": "Passenger"
+    },
+    {
+      "train_number": "54076",
+      "train_name": "Delhi - Sitapur Cant Passenger",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "00:07:00",
+          "departure": "00:09:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "00:30:00",
+          "departure": "00:33:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 3,
+      "priority_label": "Passenger"
+    },
+    {
+      "train_number": "54078",
+      "train_name": "Shajahanpur Passenger Slip Ex Bareilly",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "00:07:00",
+          "departure": "00:09:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "00:30:00",
+          "departure": "00:33:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 3,
+      "priority_label": "Passenger"
+    },
+    {
+      "train_number": "54308",
+      "train_name": "Delhi Moradabad Passenger",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "02:09:00",
+          "departure": "02:10:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "02:30:00",
+          "departure": "02:35:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 3,
+      "priority_label": "Passenger"
+    },
+    {
+      "train_number": "54411",
+      "train_name": "Rewari Meerut Cantt. Passenger",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "18:39:00",
+          "departure": "18:40:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "18:40:00",
+          "departure": "18:40:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "18:43:00",
+          "departure": "18:44:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "18:48:00",
+          "departure": "18:50:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "19:04:00",
+          "departure": "19:06:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 3,
+      "priority_label": "Passenger"
+    },
+    {
+      "train_number": "54471",
+      "train_name": "Delhi Rishikesh Passenger",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "18:01:00",
+          "departure": "18:02:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "18:18:00",
+          "departure": "18:20:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 3,
+      "priority_label": "Passenger"
+    },
+    {
+      "train_number": "54473",
+      "train_name": "Delhi Saharanpur Passenger",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "19:09:00",
+          "departure": "19:10:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "19:10:00",
+          "departure": "19:10:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "19:13:00",
+          "departure": "19:14:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "19:19:00",
+          "departure": "19:20:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "19:33:00",
+          "departure": "19:35:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 3,
+      "priority_label": "Passenger"
+    },
+    {
+      "train_number": "54505",
+      "train_name": "Delhi Ambala Passenger",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "10:45:00",
+          "departure": "10:46:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "11:01:00",
+          "departure": "11:03:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 3,
+      "priority_label": "Passenger"
+    },
+    {
+      "train_number": "54521",
+      "train_name": "Delhi Saharanpur Passenger",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "13:56:00",
+          "departure": "13:57:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "14:15:00",
+          "departure": "14:17:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 3,
+      "priority_label": "Passenger"
+    },
+    {
+      "train_number": "54539",
+      "train_name": "Nizamuddin Ambala Passenger",
+      "stops_on_corridor": [
+        {
+          "station_code": "SBB",
+          "arrival": "05:11:00",
+          "departure": "05:12:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "05:28:00",
+          "departure": "05:30:00",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 3,
+      "priority_label": "Passenger"
+    },
+    {
+      "train_number": "59386-Slip",
+      "train_name": "Panchvalley Passenger Slip1",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "20:27:00",
+          "departure": "20:27:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "20:27:00",
+          "departure": "20:27:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "20:30:00",
+          "departure": "20:30:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "20:35:00",
+          "departure": "20:36:00",
+          "day": 2.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "21:00:00",
+          "departure": "21:05:00",
+          "day": 2.0
+        }
+      ],
+      "priority_rank": 3,
+      "priority_label": "Passenger"
+    },
+    {
+      "train_number": "64450",
+      "train_name": "New Delhi Ghaziabad Ladies Special",
+      "stops_on_corridor": [
+        {
+          "station_code": "ANVR",
+          "arrival": "18:10:00",
+          "departure": "18:11:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "ANVT",
+          "arrival": "18:11:00",
+          "departure": "18:11:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "CNJ",
+          "arrival": "18:14:00",
+          "departure": "18:14:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "SBB",
+          "arrival": "18:19:00",
+          "departure": "18:20:00",
+          "day": 1.0
+        },
+        {
+          "station_code": "GZB",
+          "arrival": "18:35:00",
+          "departure": "None",
+          "day": 1.0
+        }
+      ],
+      "priority_rank": 2,
+      "priority_label": "Express"
+    }
+  ]
+}

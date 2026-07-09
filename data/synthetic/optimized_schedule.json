@@ -1,0 +1,6329 @@
+{
+  "train_schedules": {
+    "03686": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2601.0,
+        "recommended_entry_min": 2614,
+        "delay_min": 13.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2607.0,
+        "recommended_entry_min": 2618,
+        "delay_min": 11.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2615.0,
+        "recommended_entry_min": 2624,
+        "delay_min": 9.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2621.0,
+        "recommended_entry_min": 2628,
+        "delay_min": 7.0
+      }
+    ],
+    "04053": [
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2835.0,
+        "recommended_entry_min": 2835,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2840.0,
+        "recommended_entry_min": 2840,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2850.0,
+        "recommended_entry_min": 2850,
+        "delay_min": 0.0
+      }
+    ],
+    "04202": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2902.0,
+        "recommended_entry_min": 2902,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2902.0,
+        "recommended_entry_min": 2904,
+        "delay_min": 2.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2907.0,
+        "recommended_entry_min": 2909,
+        "delay_min": 2.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2915.0,
+        "recommended_entry_min": 2915,
+        "delay_min": 0.0
+      }
+    ],
+    "04204": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2635.0,
+        "recommended_entry_min": 2635,
+        "delay_min": 0.0
+      }
+    ],
+    "12004": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 1829.0,
+        "recommended_entry_min": 1829,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 1829.0,
+        "recommended_entry_min": 1830,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 1831.0,
+        "recommended_entry_min": 1831,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 1835.0,
+        "recommended_entry_min": 1835,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 1846.0,
+        "recommended_entry_min": 1846,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 1852.0,
+        "recommended_entry_min": 1852,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 1856.0,
+        "recommended_entry_min": 1856,
+        "delay_min": 0.0
+      }
+    ],
+    "12017": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 1868.0,
+        "recommended_entry_min": 1868,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 1868.0,
+        "recommended_entry_min": 1869,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 1871.0,
+        "recommended_entry_min": 1871,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 1877.0,
+        "recommended_entry_min": 1877,
+        "delay_min": 0.0
+      }
+    ],
+    "12034": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2413.0,
+        "recommended_entry_min": 2413,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2413.0,
+        "recommended_entry_min": 2414,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2417.0,
+        "recommended_entry_min": 2428,
+        "delay_min": 11.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2422.0,
+        "recommended_entry_min": 2431,
+        "delay_min": 9.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2433.0,
+        "recommended_entry_min": 2438,
+        "delay_min": 5.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2439.0,
+        "recommended_entry_min": 2444,
+        "delay_min": 5.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2443.0,
+        "recommended_entry_min": 2448,
+        "delay_min": 5.0
+      }
+    ],
+    "12055": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2371.0,
+        "recommended_entry_min": 2371,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2371.0,
+        "recommended_entry_min": 2372,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2374.0,
+        "recommended_entry_min": 2374,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2379.0,
+        "recommended_entry_min": 2379,
+        "delay_min": 0.0
+      }
+    ],
+    "12171": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 3351.0,
+        "recommended_entry_min": 3351,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 3351.0,
+        "recommended_entry_min": 3352,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 3353.0,
+        "recommended_entry_min": 3353,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 3357.0,
+        "recommended_entry_min": 3357,
+        "delay_min": 0.0
+      }
+    ],
+    "12204": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2127.0,
+        "recommended_entry_min": 2127,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2127.0,
+        "recommended_entry_min": 2128,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2129.0,
+        "recommended_entry_min": 2129,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2132.0,
+        "recommended_entry_min": 2132,
+        "delay_min": 0.0
+      }
+    ],
+    "12205": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2897.0,
+        "recommended_entry_min": 2897,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2897.0,
+        "recommended_entry_min": 2898,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2901.0,
+        "recommended_entry_min": 2901,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2907.0,
+        "recommended_entry_min": 2907,
+        "delay_min": 0.0
+      }
+    ],
+    "12212": [
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2710.0,
+        "recommended_entry_min": 2710,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2712.0,
+        "recommended_entry_min": 2712,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2716.0,
+        "recommended_entry_min": 2716,
+        "delay_min": 0.0
+      }
+    ],
+    "12226": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2612.0,
+        "recommended_entry_min": 2615,
+        "delay_min": 3.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2618.0,
+        "recommended_entry_min": 2622,
+        "delay_min": 4.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2627.0,
+        "recommended_entry_min": 2628,
+        "delay_min": 1.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2633.0,
+        "recommended_entry_min": 2633,
+        "delay_min": 0.0
+      }
+    ],
+    "12230": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2787.0,
+        "recommended_entry_min": 2787,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2787.0,
+        "recommended_entry_min": 2788,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2790.0,
+        "recommended_entry_min": 2790,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2795.0,
+        "recommended_entry_min": 2795,
+        "delay_min": 0.0
+      }
+    ],
+    "12234": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2867.0,
+        "recommended_entry_min": 2867,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2867.0,
+        "recommended_entry_min": 2868,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2870.0,
+        "recommended_entry_min": 2870,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2874.0,
+        "recommended_entry_min": 2874,
+        "delay_min": 0.0
+      }
+    ],
+    "12236": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2022.0,
+        "recommended_entry_min": 2022,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2022.0,
+        "recommended_entry_min": 2023,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2024.0,
+        "recommended_entry_min": 2024,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2027.0,
+        "recommended_entry_min": 2027,
+        "delay_min": 0.0
+      }
+    ],
+    "12260": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2653.0,
+        "recommended_entry_min": 2653,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2653.0,
+        "recommended_entry_min": 2654,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2655.0,
+        "recommended_entry_min": 2655,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2657.0,
+        "recommended_entry_min": 2659,
+        "delay_min": 2.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2662.0,
+        "recommended_entry_min": 2663,
+        "delay_min": 1.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2669.0,
+        "recommended_entry_min": 2669,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2673.0,
+        "recommended_entry_min": 2673,
+        "delay_min": 0.0
+      }
+    ],
+    "12272": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2861.0,
+        "recommended_entry_min": 2861,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2862.0,
+        "recommended_entry_min": 2862,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2864.0,
+        "recommended_entry_min": 2864,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2867.0,
+        "recommended_entry_min": 2867,
+        "delay_min": 0.0
+      }
+    ],
+    "12274": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2229.0,
+        "recommended_entry_min": 2229,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2229.0,
+        "recommended_entry_min": 2230,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2230.0,
+        "recommended_entry_min": 2231,
+        "delay_min": 1.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2233.0,
+        "recommended_entry_min": 2234,
+        "delay_min": 1.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2238.0,
+        "recommended_entry_min": 2238,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2245.0,
+        "recommended_entry_min": 2245,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2250.0,
+        "recommended_entry_min": 2250,
+        "delay_min": 0.0
+      }
+    ],
+    "12276": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2829.0,
+        "recommended_entry_min": 2829,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2829.0,
+        "recommended_entry_min": 2830,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2830.0,
+        "recommended_entry_min": 2831,
+        "delay_min": 1.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2833.0,
+        "recommended_entry_min": 2834,
+        "delay_min": 1.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2838.0,
+        "recommended_entry_min": 2838,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2845.0,
+        "recommended_entry_min": 2845,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2850.0,
+        "recommended_entry_min": 2850,
+        "delay_min": 0.0
+      }
+    ],
+    "12282": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2229.0,
+        "recommended_entry_min": 2229,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2230.0,
+        "recommended_entry_min": 2230,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2231.0,
+        "recommended_entry_min": 2231,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2234.0,
+        "recommended_entry_min": 2234,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2240.0,
+        "recommended_entry_min": 2248,
+        "delay_min": 8.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2248.0,
+        "recommended_entry_min": 2254,
+        "delay_min": 6.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2253.0,
+        "recommended_entry_min": 2258,
+        "delay_min": 5.0
+      }
+    ],
+    "12287": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 4998.0,
+        "recommended_entry_min": 4998,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 4998.0,
+        "recommended_entry_min": 4999,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 5002.0,
+        "recommended_entry_min": 5002,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 5008.0,
+        "recommended_entry_min": 5008,
+        "delay_min": 0.0
+      }
+    ],
+    "12302": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2468.0,
+        "recommended_entry_min": 2468,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2468.0,
+        "recommended_entry_min": 2469,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2469.0,
+        "recommended_entry_min": 2470,
+        "delay_min": 1.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2471.0,
+        "recommended_entry_min": 2478,
+        "delay_min": 7.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2476.0,
+        "recommended_entry_min": 2486,
+        "delay_min": 10.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2482.0,
+        "recommended_entry_min": 2492,
+        "delay_min": 10.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2487.0,
+        "recommended_entry_min": 2496,
+        "delay_min": 9.0
+      }
+    ],
+    "12304": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2437.0,
+        "recommended_entry_min": 2441,
+        "delay_min": 4.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2437.0,
+        "recommended_entry_min": 2442,
+        "delay_min": 5.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2440.0,
+        "recommended_entry_min": 2443,
+        "delay_min": 3.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2446.0,
+        "recommended_entry_min": 2446,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2456.0,
+        "recommended_entry_min": 2456,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2470.0,
+        "recommended_entry_min": 2470,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2480.0,
+        "recommended_entry_min": 2480,
+        "delay_min": 0.0
+      }
+    ],
+    "12306": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2468.0,
+        "recommended_entry_min": 2468,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2468.0,
+        "recommended_entry_min": 2470,
+        "delay_min": 2.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2469.0,
+        "recommended_entry_min": 2471,
+        "delay_min": 2.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2471.0,
+        "recommended_entry_min": 2474,
+        "delay_min": 3.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2476.0,
+        "recommended_entry_min": 2478,
+        "delay_min": 2.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2482.0,
+        "recommended_entry_min": 2484,
+        "delay_min": 2.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2487.0,
+        "recommended_entry_min": 2488,
+        "delay_min": 1.0
+      }
+    ],
+    "12310": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2478.0,
+        "recommended_entry_min": 2478,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2478.0,
+        "recommended_entry_min": 2479,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2479.0,
+        "recommended_entry_min": 2480,
+        "delay_min": 1.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2481.0,
+        "recommended_entry_min": 2485,
+        "delay_min": 4.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2486.0,
+        "recommended_entry_min": 2489,
+        "delay_min": 3.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2492.0,
+        "recommended_entry_min": 2495,
+        "delay_min": 3.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2497.0,
+        "recommended_entry_min": 2499,
+        "delay_min": 2.0
+      }
+    ],
+    "12312": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 3325.0,
+        "recommended_entry_min": 3325,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 3339.0,
+        "recommended_entry_min": 3339,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 3350.0,
+        "recommended_entry_min": 3353,
+        "delay_min": 3.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 3357.0,
+        "recommended_entry_min": 3357,
+        "delay_min": 0.0
+      }
+    ],
+    "12314": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2438.0,
+        "recommended_entry_min": 2438,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2439.0,
+        "recommended_entry_min": 2439,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2440.0,
+        "recommended_entry_min": 2440,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2442.0,
+        "recommended_entry_min": 2443,
+        "delay_min": 1.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2447.0,
+        "recommended_entry_min": 2449,
+        "delay_min": 2.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2454.0,
+        "recommended_entry_min": 2455,
+        "delay_min": 1.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2458.0,
+        "recommended_entry_min": 2459,
+        "delay_min": 1.0
+      }
+    ],
+    "12324": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 1880.0,
+        "recommended_entry_min": 1884,
+        "delay_min": 4.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 1880.0,
+        "recommended_entry_min": 1887,
+        "delay_min": 7.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 1882.0,
+        "recommended_entry_min": 1890,
+        "delay_min": 8.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 1885.0,
+        "recommended_entry_min": 1893,
+        "delay_min": 8.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 1891.0,
+        "recommended_entry_min": 1902,
+        "delay_min": 11.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 1900.0,
+        "recommended_entry_min": 1908,
+        "delay_min": 8.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 1905.0,
+        "recommended_entry_min": 1912,
+        "delay_min": 7.0
+      }
+    ],
+    "12330": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2601.0,
+        "recommended_entry_min": 2607,
+        "delay_min": 6.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2607.0,
+        "recommended_entry_min": 2611,
+        "delay_min": 4.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2615.0,
+        "recommended_entry_min": 2617,
+        "delay_min": 2.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2621.0,
+        "recommended_entry_min": 2621,
+        "delay_min": 0.0
+      }
+    ],
+    "12350": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2876.0,
+        "recommended_entry_min": 2876,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2876.0,
+        "recommended_entry_min": 2877,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2878.0,
+        "recommended_entry_min": 2880,
+        "delay_min": 2.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2881.0,
+        "recommended_entry_min": 2883,
+        "delay_min": 2.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2887.0,
+        "recommended_entry_min": 2893,
+        "delay_min": 6.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2896.0,
+        "recommended_entry_min": 2899,
+        "delay_min": 3.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2902.0,
+        "recommended_entry_min": 2903,
+        "delay_min": 1.0
+      }
+    ],
+    "12368": [
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2320.0,
+        "recommended_entry_min": 2320,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2322.0,
+        "recommended_entry_min": 2322,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2326.0,
+        "recommended_entry_min": 2326,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2333.0,
+        "recommended_entry_min": 2333,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2343.0,
+        "recommended_entry_min": 2343,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2350.0,
+        "recommended_entry_min": 2350,
+        "delay_min": 0.0
+      }
+    ],
+    "12380": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2601.0,
+        "recommended_entry_min": 2601,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2606.0,
+        "recommended_entry_min": 2606,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2614.0,
+        "recommended_entry_min": 2614,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2620.0,
+        "recommended_entry_min": 2620,
+        "delay_min": 0.0
+      }
+    ],
+    "12382": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2437.0,
+        "recommended_entry_min": 2437,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2437.0,
+        "recommended_entry_min": 2445,
+        "delay_min": 8.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2440.0,
+        "recommended_entry_min": 2448,
+        "delay_min": 8.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2446.0,
+        "recommended_entry_min": 2460,
+        "delay_min": 14.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2456.0,
+        "recommended_entry_min": 2464,
+        "delay_min": 8.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2470.0,
+        "recommended_entry_min": 2470,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2480.0,
+        "recommended_entry_min": 2480,
+        "delay_min": 0.0
+      }
+    ],
+    "12392": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2253.0,
+        "recommended_entry_min": 2253,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2253.0,
+        "recommended_entry_min": 2254,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2256.0,
+        "recommended_entry_min": 2256,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2262.0,
+        "recommended_entry_min": 2262,
+        "delay_min": 0.0
+      }
+    ],
+    "12394": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2500.0,
+        "recommended_entry_min": 2500,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2500.0,
+        "recommended_entry_min": 2501,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2502.0,
+        "recommended_entry_min": 2502,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2505.0,
+        "recommended_entry_min": 2505,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2510.0,
+        "recommended_entry_min": 2510,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2518.0,
+        "recommended_entry_min": 2518,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2523.0,
+        "recommended_entry_min": 2523,
+        "delay_min": 0.0
+      }
+    ],
+    "12398": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2300.0,
+        "recommended_entry_min": 2300,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2300.0,
+        "recommended_entry_min": 2301,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2302.0,
+        "recommended_entry_min": 2302,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2304.0,
+        "recommended_entry_min": 2305,
+        "delay_min": 1.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2310.0,
+        "recommended_entry_min": 2310,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2318.0,
+        "recommended_entry_min": 2318,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2323.0,
+        "recommended_entry_min": 2323,
+        "delay_min": 0.0
+      }
+    ],
+    "12402": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2661.0,
+        "recommended_entry_min": 2661,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2661.0,
+        "recommended_entry_min": 2662,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2663.0,
+        "recommended_entry_min": 2663,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2667.0,
+        "recommended_entry_min": 2667,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2673.0,
+        "recommended_entry_min": 2674,
+        "delay_min": 1.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2682.0,
+        "recommended_entry_min": 2682,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2688.0,
+        "recommended_entry_min": 2688,
+        "delay_min": 0.0
+      }
+    ],
+    "12418": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2742.0,
+        "recommended_entry_min": 2742,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2742.0,
+        "recommended_entry_min": 2743,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2745.0,
+        "recommended_entry_min": 2745,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2749.0,
+        "recommended_entry_min": 2756,
+        "delay_min": 7.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2762.0,
+        "recommended_entry_min": 2762,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2769.0,
+        "recommended_entry_min": 2769,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2774.0,
+        "recommended_entry_min": 2774,
+        "delay_min": 0.0
+      }
+    ],
+    "12420": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2217.0,
+        "recommended_entry_min": 2217,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2217.0,
+        "recommended_entry_min": 2218,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2220.0,
+        "recommended_entry_min": 2220,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2224.0,
+        "recommended_entry_min": 2224,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2237.0,
+        "recommended_entry_min": 2237,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2245.0,
+        "recommended_entry_min": 2245,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2250.0,
+        "recommended_entry_min": 2250,
+        "delay_min": 0.0
+      }
+    ],
+    "12424": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2288.0,
+        "recommended_entry_min": 2288,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2289.0,
+        "recommended_entry_min": 2289,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2289.0,
+        "recommended_entry_min": 2290,
+        "delay_min": 1.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2291.0,
+        "recommended_entry_min": 2293,
+        "delay_min": 2.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2296.0,
+        "recommended_entry_min": 2297,
+        "delay_min": 1.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2302.0,
+        "recommended_entry_min": 2303,
+        "delay_min": 1.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2307.0,
+        "recommended_entry_min": 2307,
+        "delay_min": 0.0
+      }
+    ],
+    "12428": [
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2900.0,
+        "recommended_entry_min": 2900,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2901.0,
+        "recommended_entry_min": 2901,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2911.0,
+        "recommended_entry_min": 2911,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2929.0,
+        "recommended_entry_min": 2929,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2937.0,
+        "recommended_entry_min": 2937,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2942.0,
+        "recommended_entry_min": 2942,
+        "delay_min": 0.0
+      }
+    ],
+    "12436": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2022.0,
+        "recommended_entry_min": 2022,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2022.0,
+        "recommended_entry_min": 2023,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2024.0,
+        "recommended_entry_min": 2024,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2027.0,
+        "recommended_entry_min": 2027,
+        "delay_min": 0.0
+      }
+    ],
+    "12452": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2870.0,
+        "recommended_entry_min": 2870,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2871.0,
+        "recommended_entry_min": 2871,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2872.0,
+        "recommended_entry_min": 2872,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2876.0,
+        "recommended_entry_min": 2876,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2882.0,
+        "recommended_entry_min": 2882,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2891.0,
+        "recommended_entry_min": 2891,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2896.0,
+        "recommended_entry_min": 2896,
+        "delay_min": 0.0
+      }
+    ],
+    "12454": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2418.0,
+        "recommended_entry_min": 2418,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2418.0,
+        "recommended_entry_min": 2419,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2420.0,
+        "recommended_entry_min": 2420,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2422.0,
+        "recommended_entry_min": 2423,
+        "delay_min": 1.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2427.0,
+        "recommended_entry_min": 2427,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2434.0,
+        "recommended_entry_min": 2434,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2438.0,
+        "recommended_entry_min": 2438,
+        "delay_min": 0.0
+      }
+    ],
+    "12488": [
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 1900.0,
+        "recommended_entry_min": 1900,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 1904.0,
+        "recommended_entry_min": 1904,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 1912.0,
+        "recommended_entry_min": 1912,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 1928.0,
+        "recommended_entry_min": 1928,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 1936.0,
+        "recommended_entry_min": 1936,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 1941.0,
+        "recommended_entry_min": 1941,
+        "delay_min": 0.0
+      }
+    ],
+    "12502": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2876.0,
+        "recommended_entry_min": 2876,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2877.0,
+        "recommended_entry_min": 2877,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2878.0,
+        "recommended_entry_min": 2878,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2881.0,
+        "recommended_entry_min": 2881,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2887.0,
+        "recommended_entry_min": 2887,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2896.0,
+        "recommended_entry_min": 2896,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2902.0,
+        "recommended_entry_min": 2902,
+        "delay_min": 0.0
+      }
+    ],
+    "12506": [
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 1850.0,
+        "recommended_entry_min": 1850,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 1852.0,
+        "recommended_entry_min": 1852,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 1855.0,
+        "recommended_entry_min": 1855,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 1861.0,
+        "recommended_entry_min": 1862,
+        "delay_min": 1.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 1869.0,
+        "recommended_entry_min": 1869,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 1875.0,
+        "recommended_entry_min": 1875,
+        "delay_min": 0.0
+      }
+    ],
+    "12524": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2371.0,
+        "recommended_entry_min": 2371,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2371.0,
+        "recommended_entry_min": 2372,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2375.0,
+        "recommended_entry_min": 2375,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2381.0,
+        "recommended_entry_min": 2381,
+        "delay_min": 0.0
+      }
+    ],
+    "12554": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2645.0,
+        "recommended_entry_min": 2645,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2645.0,
+        "recommended_entry_min": 2646,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2647.0,
+        "recommended_entry_min": 2647,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2652.0,
+        "recommended_entry_min": 2652,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2663.0,
+        "recommended_entry_min": 2663,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2672.0,
+        "recommended_entry_min": 2672,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2678.0,
+        "recommended_entry_min": 2678,
+        "delay_min": 0.0
+      }
+    ],
+    "12556": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2676.0,
+        "recommended_entry_min": 2676,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2676.0,
+        "recommended_entry_min": 2677,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2678.0,
+        "recommended_entry_min": 2678,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2682.0,
+        "recommended_entry_min": 2682,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2689.0,
+        "recommended_entry_min": 2689,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2698.0,
+        "recommended_entry_min": 2698,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2705.0,
+        "recommended_entry_min": 2705,
+        "delay_min": 0.0
+      }
+    ],
+    "12558": [
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2330.0,
+        "recommended_entry_min": 2330,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2332.0,
+        "recommended_entry_min": 2332,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2336.0,
+        "recommended_entry_min": 2336,
+        "delay_min": 0.0
+      }
+    ],
+    "12560": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2575.0,
+        "recommended_entry_min": 2575,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2575.0,
+        "recommended_entry_min": 2576,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2577.0,
+        "recommended_entry_min": 2577,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2580.0,
+        "recommended_entry_min": 2580,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2586.0,
+        "recommended_entry_min": 2586,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2594.0,
+        "recommended_entry_min": 2594,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2600.0,
+        "recommended_entry_min": 2600,
+        "delay_min": 0.0
+      }
+    ],
+    "12562": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2691.0,
+        "recommended_entry_min": 2691,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2691.0,
+        "recommended_entry_min": 2692,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2693.0,
+        "recommended_entry_min": 2693,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2696.0,
+        "recommended_entry_min": 2703,
+        "delay_min": 7.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2703.0,
+        "recommended_entry_min": 2707,
+        "delay_min": 4.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2712.0,
+        "recommended_entry_min": 2713,
+        "delay_min": 1.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2718.0,
+        "recommended_entry_min": 2718,
+        "delay_min": 0.0
+      }
+    ],
+    "12566": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2320.0,
+        "recommended_entry_min": 2320,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2320.0,
+        "recommended_entry_min": 2321,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2321.0,
+        "recommended_entry_min": 2322,
+        "delay_min": 1.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2324.0,
+        "recommended_entry_min": 2325,
+        "delay_min": 1.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2330.0,
+        "recommended_entry_min": 2330,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2338.0,
+        "recommended_entry_min": 2338,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2343.0,
+        "recommended_entry_min": 2343,
+        "delay_min": 0.0
+      }
+    ],
+    "12570": [
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2460.0,
+        "recommended_entry_min": 2460,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2462.0,
+        "recommended_entry_min": 2462,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2466.0,
+        "recommended_entry_min": 2471,
+        "delay_min": 5.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2473.0,
+        "recommended_entry_min": 2475,
+        "delay_min": 2.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2483.0,
+        "recommended_entry_min": 2483,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2490.0,
+        "recommended_entry_min": 2490,
+        "delay_min": 0.0
+      }
+    ],
+    "12687": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 4170.0,
+        "recommended_entry_min": 4170,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 4171.0,
+        "recommended_entry_min": 4171,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 4175.0,
+        "recommended_entry_min": 4175,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 4182.0,
+        "recommended_entry_min": 4182,
+        "delay_min": 0.0
+      }
+    ],
+    "12687-Slip": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 4170.0,
+        "recommended_entry_min": 4170,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 4170.0,
+        "recommended_entry_min": 4171,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 4174.0,
+        "recommended_entry_min": 4174,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 4181.0,
+        "recommended_entry_min": 4181,
+        "delay_min": 0.0
+      }
+    ],
+    "12802": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2791.0,
+        "recommended_entry_min": 2791,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2791.0,
+        "recommended_entry_min": 2792,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2793.0,
+        "recommended_entry_min": 2793,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2796.0,
+        "recommended_entry_min": 2796,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2803.0,
+        "recommended_entry_min": 2803,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2812.0,
+        "recommended_entry_min": 2812,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2818.0,
+        "recommended_entry_min": 2818,
+        "delay_min": 0.0
+      }
+    ],
+    "12816": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 1840.0,
+        "recommended_entry_min": 1840,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 1840.0,
+        "recommended_entry_min": 1841,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 1842.0,
+        "recommended_entry_min": 1842,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 1845.0,
+        "recommended_entry_min": 1849,
+        "delay_min": 4.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 1851.0,
+        "recommended_entry_min": 1857,
+        "delay_min": 6.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 1859.0,
+        "recommended_entry_min": 1863,
+        "delay_min": 4.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 1865.0,
+        "recommended_entry_min": 1867,
+        "delay_min": 2.0
+      }
+    ],
+    "12818": [
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2630.0,
+        "recommended_entry_min": 2630,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2632.0,
+        "recommended_entry_min": 2632,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2635.0,
+        "recommended_entry_min": 2642,
+        "delay_min": 7.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2641.0,
+        "recommended_entry_min": 2646,
+        "delay_min": 5.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2649.0,
+        "recommended_entry_min": 2652,
+        "delay_min": 3.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2655.0,
+        "recommended_entry_min": 2656,
+        "delay_min": 1.0
+      }
+    ],
+    "12820": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 1880.0,
+        "recommended_entry_min": 1880,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 1880.0,
+        "recommended_entry_min": 1881,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 1882.0,
+        "recommended_entry_min": 1882,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 1885.0,
+        "recommended_entry_min": 1885,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 1891.0,
+        "recommended_entry_min": 1899,
+        "delay_min": 8.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 1899.0,
+        "recommended_entry_min": 1905,
+        "delay_min": 6.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 1905.0,
+        "recommended_entry_min": 1909,
+        "delay_min": 4.0
+      }
+    ],
+    "12826": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 1880.0,
+        "recommended_entry_min": 1880,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 1880.0,
+        "recommended_entry_min": 1881,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 1882.0,
+        "recommended_entry_min": 1882,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 1885.0,
+        "recommended_entry_min": 1885,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 1891.0,
+        "recommended_entry_min": 1891,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 1899.0,
+        "recommended_entry_min": 1899,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 1905.0,
+        "recommended_entry_min": 1905,
+        "delay_min": 0.0
+      }
+    ],
+    "12874": [
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2630.0,
+        "recommended_entry_min": 2630,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2632.0,
+        "recommended_entry_min": 2632,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2635.0,
+        "recommended_entry_min": 2635,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2641.0,
+        "recommended_entry_min": 2641,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2649.0,
+        "recommended_entry_min": 2649,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2655.0,
+        "recommended_entry_min": 2655,
+        "delay_min": 0.0
+      }
+    ],
+    "12876": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 1840.0,
+        "recommended_entry_min": 1840,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 1841.0,
+        "recommended_entry_min": 1841,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 1842.0,
+        "recommended_entry_min": 1842,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 1845.0,
+        "recommended_entry_min": 1845,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 1851.0,
+        "recommended_entry_min": 1851,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 1859.0,
+        "recommended_entry_min": 1859,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 1865.0,
+        "recommended_entry_min": 1865,
+        "delay_min": 0.0
+      }
+    ],
+    "12878": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2418.0,
+        "recommended_entry_min": 2418,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2418.0,
+        "recommended_entry_min": 2420,
+        "delay_min": 2.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2420.0,
+        "recommended_entry_min": 2421,
+        "delay_min": 1.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2422.0,
+        "recommended_entry_min": 2427,
+        "delay_min": 5.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2427.0,
+        "recommended_entry_min": 2431,
+        "delay_min": 4.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2434.0,
+        "recommended_entry_min": 2437,
+        "delay_min": 3.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2438.0,
+        "recommended_entry_min": 2441,
+        "delay_min": 3.0
+      }
+    ],
+    "12903": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 4042.0,
+        "recommended_entry_min": 4042,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 4043.0,
+        "recommended_entry_min": 4043,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 4047.0,
+        "recommended_entry_min": 4047,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 4056.0,
+        "recommended_entry_min": 4056,
+        "delay_min": 0.0
+      }
+    ],
+    "12911": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 3558.0,
+        "recommended_entry_min": 3558,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 3558.0,
+        "recommended_entry_min": 3559,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 3562.0,
+        "recommended_entry_min": 3562,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 3568.0,
+        "recommended_entry_min": 3568,
+        "delay_min": 0.0
+      }
+    ],
+    "13040": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2404.0,
+        "recommended_entry_min": 2404,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2427.0,
+        "recommended_entry_min": 2442,
+        "delay_min": 15.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2440.0,
+        "recommended_entry_min": 2448,
+        "delay_min": 8.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2450.0,
+        "recommended_entry_min": 2452,
+        "delay_min": 2.0
+      }
+    ],
+    "13112": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2719.0,
+        "recommended_entry_min": 2719,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2735.0,
+        "recommended_entry_min": 2735,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2747.0,
+        "recommended_entry_min": 2747,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2754.0,
+        "recommended_entry_min": 2754,
+        "delay_min": 0.0
+      }
+    ],
+    "13414": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2774.0,
+        "recommended_entry_min": 2774,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2788.0,
+        "recommended_entry_min": 2788,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2795.0,
+        "recommended_entry_min": 2795,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2800.0,
+        "recommended_entry_min": 2800,
+        "delay_min": 0.0
+      }
+    ],
+    "13484": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2774.0,
+        "recommended_entry_min": 2774,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2788.0,
+        "recommended_entry_min": 2788,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2795.0,
+        "recommended_entry_min": 2795,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2800.0,
+        "recommended_entry_min": 2800,
+        "delay_min": 0.0
+      }
+    ],
+    "14004": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2532.0,
+        "recommended_entry_min": 2532,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2533.0,
+        "recommended_entry_min": 2536,
+        "delay_min": 3.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2537.0,
+        "recommended_entry_min": 2540,
+        "delay_min": 3.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2546.0,
+        "recommended_entry_min": 2546,
+        "delay_min": 0.0
+      }
+    ],
+    "14006": [
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2385.0,
+        "recommended_entry_min": 2385,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2389.0,
+        "recommended_entry_min": 2389,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2397.0,
+        "recommended_entry_min": 2397,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2413.0,
+        "recommended_entry_min": 2413,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2422.0,
+        "recommended_entry_min": 2422,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2430.0,
+        "recommended_entry_min": 2430,
+        "delay_min": 0.0
+      }
+    ],
+    "14008": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2450.0,
+        "recommended_entry_min": 2453,
+        "delay_min": 3.0
+      }
+    ],
+    "14012": [
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 1800.0,
+        "recommended_entry_min": 1800,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 1804.0,
+        "recommended_entry_min": 1804,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 1812.0,
+        "recommended_entry_min": 1812,
+        "delay_min": 0.0
+      }
+    ],
+    "14014": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2450.0,
+        "recommended_entry_min": 2467,
+        "delay_min": 17.0
+      }
+    ],
+    "14016": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2450.0,
+        "recommended_entry_min": 2457,
+        "delay_min": 7.0
+      }
+    ],
+    "14018": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2450.0,
+        "recommended_entry_min": 2450,
+        "delay_min": 0.0
+      }
+    ],
+    "14041": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2811.0,
+        "recommended_entry_min": 2811,
+        "delay_min": 0.0
+      }
+    ],
+    "14041-Slip": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2809.0,
+        "recommended_entry_min": 2809,
+        "delay_min": 0.0
+      }
+    ],
+    "14044": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 1911.0,
+        "recommended_entry_min": 1911,
+        "delay_min": 0.0
+      }
+    ],
+    "14056": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2864.0,
+        "recommended_entry_min": 2864,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2871.0,
+        "recommended_entry_min": 2871,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2881.0,
+        "recommended_entry_min": 2881,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2888.0,
+        "recommended_entry_min": 2888,
+        "delay_min": 0.0
+      }
+    ],
+    "14084": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 1871.0,
+        "recommended_entry_min": 1871,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 1888.0,
+        "recommended_entry_min": 1888,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 1896.0,
+        "recommended_entry_min": 1896,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 1901.0,
+        "recommended_entry_min": 1901,
+        "delay_min": 0.0
+      }
+    ],
+    "14206": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2585.0,
+        "recommended_entry_min": 2585,
+        "delay_min": 0.0
+      }
+    ],
+    "14208": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2657.0,
+        "recommended_entry_min": 2657,
+        "delay_min": 0.0
+      }
+    ],
+    "14218": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2761.0,
+        "recommended_entry_min": 2761,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2775.0,
+        "recommended_entry_min": 2775,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2782.0,
+        "recommended_entry_min": 2782,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2787.0,
+        "recommended_entry_min": 2787,
+        "delay_min": 0.0
+      }
+    ],
+    "14258": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2158.0,
+        "recommended_entry_min": 2158,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2158.0,
+        "recommended_entry_min": 2159,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2161.0,
+        "recommended_entry_min": 2161,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2167.0,
+        "recommended_entry_min": 2167,
+        "delay_min": 0.0
+      }
+    ],
+    "14309": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 3586.0,
+        "recommended_entry_min": 3586,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 3587.0,
+        "recommended_entry_min": 3587,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 3590.0,
+        "recommended_entry_min": 3590,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 3596.0,
+        "recommended_entry_min": 3596,
+        "delay_min": 0.0
+      }
+    ],
+    "14312": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 3803.0,
+        "recommended_entry_min": 3803,
+        "delay_min": 0.0
+      }
+    ],
+    "14316": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2457.0,
+        "recommended_entry_min": 2457,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2457.0,
+        "recommended_entry_min": 2458,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2459.0,
+        "recommended_entry_min": 2459,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2464.0,
+        "recommended_entry_min": 2464,
+        "delay_min": 0.0
+      }
+    ],
+    "14317": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 3586.0,
+        "recommended_entry_min": 3586,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 3587.0,
+        "recommended_entry_min": 3587,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 3589.0,
+        "recommended_entry_min": 3589,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 3595.0,
+        "recommended_entry_min": 3595,
+        "delay_min": 0.0
+      }
+    ],
+    "14322": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 3804.0,
+        "recommended_entry_min": 3804,
+        "delay_min": 0.0
+      }
+    ],
+    "14556": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 1842.0,
+        "recommended_entry_min": 1842,
+        "delay_min": 0.0
+      }
+    ],
+    "14645": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2417.0,
+        "recommended_entry_min": 2420,
+        "delay_min": 3.0
+      }
+    ],
+    "14650": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2749.0,
+        "recommended_entry_min": 2749,
+        "delay_min": 0.0
+      }
+    ],
+    "14674": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2749.0,
+        "recommended_entry_min": 2749,
+        "delay_min": 0.0
+      }
+    ],
+    "14681": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2347.0,
+        "recommended_entry_min": 2347,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2347.0,
+        "recommended_entry_min": 2348,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2350.0,
+        "recommended_entry_min": 2350,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2354.0,
+        "recommended_entry_min": 2354,
+        "delay_min": 0.0
+      }
+    ],
+    "14724": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2789.0,
+        "recommended_entry_min": 2789,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2804.0,
+        "recommended_entry_min": 2804,
+        "delay_min": 0.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2811.0,
+        "recommended_entry_min": 2811,
+        "delay_min": 0.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2816.0,
+        "recommended_entry_min": 2816,
+        "delay_min": 0.0
+      }
+    ],
+    "15013": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2826.0,
+        "recommended_entry_min": 2826,
+        "delay_min": 0.0
+      }
+    ],
+    "15013-Slip": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2820.0,
+        "recommended_entry_min": 2820,
+        "delay_min": 0.0
+      }
+    ],
+    "15035": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2413.0,
+        "recommended_entry_min": 2413,
+        "delay_min": 0.0
+      }
+    ],
+    "15035-Slip": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2413.0,
+        "recommended_entry_min": 2413,
+        "delay_min": 0.0
+      }
+    ],
+    "15274": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2505.0,
+        "recommended_entry_min": 2505,
+        "delay_min": 0.0
+      }
+    ],
+    "15280": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2483.0,
+        "recommended_entry_min": 2483,
+        "delay_min": 0.0
+      }
+    ],
+    "15610": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 3385.0,
+        "recommended_entry_min": 3385,
+        "delay_min": 0.0
+      }
+    ],
+    "15708": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2381.0,
+        "recommended_entry_min": 2386,
+        "delay_min": 5.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2386.0,
+        "recommended_entry_min": 2390,
+        "delay_min": 4.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2394.0,
+        "recommended_entry_min": 2396,
+        "delay_min": 2.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2399.0,
+        "recommended_entry_min": 2400,
+        "delay_min": 1.0
+      }
+    ],
+    "15716": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2696.0,
+        "recommended_entry_min": 2696,
+        "delay_min": 0.0
+      }
+    ],
+    "15716-Slip": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2696.0,
+        "recommended_entry_min": 2696,
+        "delay_min": 0.0
+      }
+    ],
+    "18102": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 3202.0,
+        "recommended_entry_min": 3202,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 3217.0,
+        "recommended_entry_min": 3221,
+        "delay_min": 4.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 3225.0,
+        "recommended_entry_min": 3227,
+        "delay_min": 2.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 3231.0,
+        "recommended_entry_min": 3231,
+        "delay_min": 0.0
+      }
+    ],
+    "18102-Slip": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 3202.0,
+        "recommended_entry_min": 3202,
+        "delay_min": 0.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 3217.0,
+        "recommended_entry_min": 3221,
+        "delay_min": 4.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 3225.0,
+        "recommended_entry_min": 3227,
+        "delay_min": 2.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 3231.0,
+        "recommended_entry_min": 3231,
+        "delay_min": 0.0
+      }
+    ],
+    "18237": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 4108.0,
+        "recommended_entry_min": 4108,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 4108.0,
+        "recommended_entry_min": 4109,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 4111.0,
+        "recommended_entry_min": 4111,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 4116.0,
+        "recommended_entry_min": 4116,
+        "delay_min": 0.0
+      }
+    ],
+    "18477": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 5211.0,
+        "recommended_entry_min": 5211,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 5211.0,
+        "recommended_entry_min": 5212,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 5214.0,
+        "recommended_entry_min": 5214,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 5220.0,
+        "recommended_entry_min": 5220,
+        "delay_min": 0.0
+      }
+    ],
+    "19105": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 3242.0,
+        "recommended_entry_min": 3242,
+        "delay_min": 0.0
+      }
+    ],
+    "19269": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 4136.0,
+        "recommended_entry_min": 4136,
+        "delay_min": 0.0
+      }
+    ],
+    "19601": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2361.0,
+        "recommended_entry_min": 2361,
+        "delay_min": 0.0
+      }
+    ],
+    "19603": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2935.0,
+        "recommended_entry_min": 2935,
+        "delay_min": 0.0
+      }
+    ],
+    "22406": [
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2460.0,
+        "recommended_entry_min": 2464,
+        "delay_min": 4.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2462.0,
+        "recommended_entry_min": 2478,
+        "delay_min": 16.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2466.0,
+        "recommended_entry_min": 2490,
+        "delay_min": 24.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2474.0,
+        "recommended_entry_min": 2500,
+        "delay_min": 26.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2485.0,
+        "recommended_entry_min": 2506,
+        "delay_min": 21.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2492.0,
+        "recommended_entry_min": 2510,
+        "delay_min": 18.0
+      }
+    ],
+    "22408": [
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2530.0,
+        "recommended_entry_min": 2530,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2532.0,
+        "recommended_entry_min": 2532,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2536.0,
+        "recommended_entry_min": 2536,
+        "delay_min": 0.0
+      }
+    ],
+    "22410": [
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2595.0,
+        "recommended_entry_min": 2595,
+        "delay_min": 0.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2599.0,
+        "recommended_entry_min": 2599,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2605.0,
+        "recommended_entry_min": 2621,
+        "delay_min": 16.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2620.0,
+        "recommended_entry_min": 2629,
+        "delay_min": 9.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2628.0,
+        "recommended_entry_min": 2635,
+        "delay_min": 7.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2633.0,
+        "recommended_entry_min": 2639,
+        "delay_min": 6.0
+      }
+    ],
+    "22424": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2288.0,
+        "recommended_entry_min": 2288,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2288.0,
+        "recommended_entry_min": 2289,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2289.0,
+        "recommended_entry_min": 2290,
+        "delay_min": 1.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2291.0,
+        "recommended_entry_min": 2293,
+        "delay_min": 2.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2296.0,
+        "recommended_entry_min": 2297,
+        "delay_min": 1.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2302.0,
+        "recommended_entry_min": 2303,
+        "delay_min": 1.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2307.0,
+        "recommended_entry_min": 2307,
+        "delay_min": 0.0
+      }
+    ],
+    "22812": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2488.0,
+        "recommended_entry_min": 2488,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2488.0,
+        "recommended_entry_min": 2489,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2489.0,
+        "recommended_entry_min": 2490,
+        "delay_min": 1.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2491.0,
+        "recommended_entry_min": 2493,
+        "delay_min": 2.0
+      },
+      {
+        "section": "GZB -> MIU",
+        "section_index": 4,
+        "scheduled_entry_min": 2496.0,
+        "recommended_entry_min": 2497,
+        "delay_min": 1.0
+      },
+      {
+        "section": "MIU -> DER",
+        "section_index": 5,
+        "scheduled_entry_min": 2502.0,
+        "recommended_entry_min": 2503,
+        "delay_min": 1.0
+      },
+      {
+        "section": "DER -> BRKY",
+        "section_index": 6,
+        "scheduled_entry_min": 2507.0,
+        "recommended_entry_min": 2507,
+        "delay_min": 0.0
+      }
+    ],
+    "54022": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2602.0,
+        "recommended_entry_min": 2608,
+        "delay_min": 6.0
+      }
+    ],
+    "54056": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2052.0,
+        "recommended_entry_min": 2052,
+        "delay_min": 0.0
+      }
+    ],
+    "54076": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2889.0,
+        "recommended_entry_min": 2890,
+        "delay_min": 1.0
+      }
+    ],
+    "54078": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2889.0,
+        "recommended_entry_min": 2889,
+        "delay_min": 0.0
+      }
+    ],
+    "54308": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 1570.0,
+        "recommended_entry_min": 1570,
+        "delay_min": 0.0
+      }
+    ],
+    "54411": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2560.0,
+        "recommended_entry_min": 2560,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2560.0,
+        "recommended_entry_min": 2561,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2564.0,
+        "recommended_entry_min": 2564,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2570.0,
+        "recommended_entry_min": 2570,
+        "delay_min": 0.0
+      }
+    ],
+    "54471": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2522.0,
+        "recommended_entry_min": 2522,
+        "delay_min": 0.0
+      }
+    ],
+    "54473": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2590.0,
+        "recommended_entry_min": 2590,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2590.0,
+        "recommended_entry_min": 2591,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2594.0,
+        "recommended_entry_min": 2594,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2600.0,
+        "recommended_entry_min": 2600,
+        "delay_min": 0.0
+      }
+    ],
+    "54505": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2086.0,
+        "recommended_entry_min": 2086,
+        "delay_min": 0.0
+      }
+    ],
+    "54521": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2277.0,
+        "recommended_entry_min": 2277,
+        "delay_min": 0.0
+      }
+    ],
+    "54539": [
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 1752.0,
+        "recommended_entry_min": 1752,
+        "delay_min": 0.0
+      }
+    ],
+    "59386-Slip": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 4107.0,
+        "recommended_entry_min": 4107,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 4107.0,
+        "recommended_entry_min": 4108,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 4110.0,
+        "recommended_entry_min": 4110,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 4116.0,
+        "recommended_entry_min": 4116,
+        "delay_min": 0.0
+      }
+    ],
+    "64450": [
+      {
+        "section": "ANVR -> ANVT",
+        "section_index": 0,
+        "scheduled_entry_min": 2531.0,
+        "recommended_entry_min": 2531,
+        "delay_min": 0.0
+      },
+      {
+        "section": "ANVT -> CNJ",
+        "section_index": 1,
+        "scheduled_entry_min": 2531.0,
+        "recommended_entry_min": 2532,
+        "delay_min": 1.0
+      },
+      {
+        "section": "CNJ -> SBB",
+        "section_index": 2,
+        "scheduled_entry_min": 2534.0,
+        "recommended_entry_min": 2534,
+        "delay_min": 0.0
+      },
+      {
+        "section": "SBB -> GZB",
+        "section_index": 3,
+        "scheduled_entry_min": 2540.0,
+        "recommended_entry_min": 2540,
+        "delay_min": 0.0
+      }
+    ]
+  },
+  "section_precedence": {
+    "ANVR -> ANVT": [
+      {
+        "train_number": "12004",
+        "entry_min": 1829
+      },
+      {
+        "train_number": "12816",
+        "entry_min": 1840
+      },
+      {
+        "train_number": "12876",
+        "entry_min": 1840
+      },
+      {
+        "train_number": "12017",
+        "entry_min": 1868
+      },
+      {
+        "train_number": "12820",
+        "entry_min": 1880
+      },
+      {
+        "train_number": "12826",
+        "entry_min": 1880
+      },
+      {
+        "train_number": "12324",
+        "entry_min": 1884
+      },
+      {
+        "train_number": "12236",
+        "entry_min": 2022
+      },
+      {
+        "train_number": "12436",
+        "entry_min": 2022
+      },
+      {
+        "train_number": "12204",
+        "entry_min": 2127
+      },
+      {
+        "train_number": "14258",
+        "entry_min": 2158
+      },
+      {
+        "train_number": "12420",
+        "entry_min": 2217
+      },
+      {
+        "train_number": "12274",
+        "entry_min": 2229
+      },
+      {
+        "train_number": "12282",
+        "entry_min": 2229
+      },
+      {
+        "train_number": "12392",
+        "entry_min": 2253
+      },
+      {
+        "train_number": "12424",
+        "entry_min": 2288
+      },
+      {
+        "train_number": "22424",
+        "entry_min": 2288
+      },
+      {
+        "train_number": "12398",
+        "entry_min": 2300
+      },
+      {
+        "train_number": "12566",
+        "entry_min": 2320
+      },
+      {
+        "train_number": "14681",
+        "entry_min": 2347
+      },
+      {
+        "train_number": "12055",
+        "entry_min": 2371
+      },
+      {
+        "train_number": "12524",
+        "entry_min": 2371
+      },
+      {
+        "train_number": "12034",
+        "entry_min": 2413
+      },
+      {
+        "train_number": "12454",
+        "entry_min": 2418
+      },
+      {
+        "train_number": "12878",
+        "entry_min": 2418
+      },
+      {
+        "train_number": "12382",
+        "entry_min": 2437
+      },
+      {
+        "train_number": "12314",
+        "entry_min": 2438
+      },
+      {
+        "train_number": "12304",
+        "entry_min": 2441
+      },
+      {
+        "train_number": "14316",
+        "entry_min": 2457
+      },
+      {
+        "train_number": "12302",
+        "entry_min": 2468
+      },
+      {
+        "train_number": "12306",
+        "entry_min": 2468
+      },
+      {
+        "train_number": "12310",
+        "entry_min": 2478
+      },
+      {
+        "train_number": "22812",
+        "entry_min": 2488
+      },
+      {
+        "train_number": "12394",
+        "entry_min": 2500
+      },
+      {
+        "train_number": "64450",
+        "entry_min": 2531
+      },
+      {
+        "train_number": "14004",
+        "entry_min": 2532
+      },
+      {
+        "train_number": "54411",
+        "entry_min": 2560
+      },
+      {
+        "train_number": "12560",
+        "entry_min": 2575
+      },
+      {
+        "train_number": "54473",
+        "entry_min": 2590
+      },
+      {
+        "train_number": "12554",
+        "entry_min": 2645
+      },
+      {
+        "train_number": "12260",
+        "entry_min": 2653
+      },
+      {
+        "train_number": "12402",
+        "entry_min": 2661
+      },
+      {
+        "train_number": "12556",
+        "entry_min": 2676
+      },
+      {
+        "train_number": "12562",
+        "entry_min": 2691
+      },
+      {
+        "train_number": "12418",
+        "entry_min": 2742
+      },
+      {
+        "train_number": "12230",
+        "entry_min": 2787
+      },
+      {
+        "train_number": "12802",
+        "entry_min": 2791
+      },
+      {
+        "train_number": "12276",
+        "entry_min": 2829
+      },
+      {
+        "train_number": "12272",
+        "entry_min": 2861
+      },
+      {
+        "train_number": "12234",
+        "entry_min": 2867
+      },
+      {
+        "train_number": "12452",
+        "entry_min": 2870
+      },
+      {
+        "train_number": "12350",
+        "entry_min": 2876
+      },
+      {
+        "train_number": "12502",
+        "entry_min": 2876
+      },
+      {
+        "train_number": "12205",
+        "entry_min": 2897
+      },
+      {
+        "train_number": "04202",
+        "entry_min": 2902
+      },
+      {
+        "train_number": "12171",
+        "entry_min": 3351
+      },
+      {
+        "train_number": "12911",
+        "entry_min": 3558
+      },
+      {
+        "train_number": "14309",
+        "entry_min": 3586
+      },
+      {
+        "train_number": "14317",
+        "entry_min": 3586
+      },
+      {
+        "train_number": "12903",
+        "entry_min": 4042
+      },
+      {
+        "train_number": "59386-Slip",
+        "entry_min": 4107
+      },
+      {
+        "train_number": "18237",
+        "entry_min": 4108
+      },
+      {
+        "train_number": "12687",
+        "entry_min": 4170
+      },
+      {
+        "train_number": "12687-Slip",
+        "entry_min": 4170
+      },
+      {
+        "train_number": "12287",
+        "entry_min": 4998
+      },
+      {
+        "train_number": "18477",
+        "entry_min": 5211
+      }
+    ],
+    "ANVT -> CNJ": [
+      {
+        "train_number": "14012",
+        "entry_min": 1800
+      },
+      {
+        "train_number": "12004",
+        "entry_min": 1830
+      },
+      {
+        "train_number": "12816",
+        "entry_min": 1841
+      },
+      {
+        "train_number": "12876",
+        "entry_min": 1841
+      },
+      {
+        "train_number": "12506",
+        "entry_min": 1850
+      },
+      {
+        "train_number": "12017",
+        "entry_min": 1869
+      },
+      {
+        "train_number": "12820",
+        "entry_min": 1881
+      },
+      {
+        "train_number": "12826",
+        "entry_min": 1881
+      },
+      {
+        "train_number": "12324",
+        "entry_min": 1887
+      },
+      {
+        "train_number": "12488",
+        "entry_min": 1900
+      },
+      {
+        "train_number": "12236",
+        "entry_min": 2023
+      },
+      {
+        "train_number": "12436",
+        "entry_min": 2023
+      },
+      {
+        "train_number": "12204",
+        "entry_min": 2128
+      },
+      {
+        "train_number": "14258",
+        "entry_min": 2159
+      },
+      {
+        "train_number": "12420",
+        "entry_min": 2218
+      },
+      {
+        "train_number": "12274",
+        "entry_min": 2230
+      },
+      {
+        "train_number": "12282",
+        "entry_min": 2230
+      },
+      {
+        "train_number": "12392",
+        "entry_min": 2254
+      },
+      {
+        "train_number": "12424",
+        "entry_min": 2289
+      },
+      {
+        "train_number": "22424",
+        "entry_min": 2289
+      },
+      {
+        "train_number": "12398",
+        "entry_min": 2301
+      },
+      {
+        "train_number": "12368",
+        "entry_min": 2320
+      },
+      {
+        "train_number": "12566",
+        "entry_min": 2321
+      },
+      {
+        "train_number": "12558",
+        "entry_min": 2330
+      },
+      {
+        "train_number": "14681",
+        "entry_min": 2348
+      },
+      {
+        "train_number": "12055",
+        "entry_min": 2372
+      },
+      {
+        "train_number": "12524",
+        "entry_min": 2372
+      },
+      {
+        "train_number": "14006",
+        "entry_min": 2385
+      },
+      {
+        "train_number": "12034",
+        "entry_min": 2414
+      },
+      {
+        "train_number": "12454",
+        "entry_min": 2419
+      },
+      {
+        "train_number": "12878",
+        "entry_min": 2420
+      },
+      {
+        "train_number": "12314",
+        "entry_min": 2439
+      },
+      {
+        "train_number": "12304",
+        "entry_min": 2442
+      },
+      {
+        "train_number": "12382",
+        "entry_min": 2445
+      },
+      {
+        "train_number": "14316",
+        "entry_min": 2458
+      },
+      {
+        "train_number": "12570",
+        "entry_min": 2460
+      },
+      {
+        "train_number": "22406",
+        "entry_min": 2464
+      },
+      {
+        "train_number": "12302",
+        "entry_min": 2469
+      },
+      {
+        "train_number": "12306",
+        "entry_min": 2470
+      },
+      {
+        "train_number": "12310",
+        "entry_min": 2479
+      },
+      {
+        "train_number": "22812",
+        "entry_min": 2489
+      },
+      {
+        "train_number": "12394",
+        "entry_min": 2501
+      },
+      {
+        "train_number": "22408",
+        "entry_min": 2530
+      },
+      {
+        "train_number": "64450",
+        "entry_min": 2532
+      },
+      {
+        "train_number": "14004",
+        "entry_min": 2536
+      },
+      {
+        "train_number": "54411",
+        "entry_min": 2561
+      },
+      {
+        "train_number": "12560",
+        "entry_min": 2576
+      },
+      {
+        "train_number": "54473",
+        "entry_min": 2591
+      },
+      {
+        "train_number": "22410",
+        "entry_min": 2595
+      },
+      {
+        "train_number": "12818",
+        "entry_min": 2630
+      },
+      {
+        "train_number": "12874",
+        "entry_min": 2630
+      },
+      {
+        "train_number": "12554",
+        "entry_min": 2646
+      },
+      {
+        "train_number": "12260",
+        "entry_min": 2654
+      },
+      {
+        "train_number": "12402",
+        "entry_min": 2662
+      },
+      {
+        "train_number": "12556",
+        "entry_min": 2677
+      },
+      {
+        "train_number": "12562",
+        "entry_min": 2692
+      },
+      {
+        "train_number": "12212",
+        "entry_min": 2710
+      },
+      {
+        "train_number": "12418",
+        "entry_min": 2743
+      },
+      {
+        "train_number": "12230",
+        "entry_min": 2788
+      },
+      {
+        "train_number": "12802",
+        "entry_min": 2792
+      },
+      {
+        "train_number": "12276",
+        "entry_min": 2830
+      },
+      {
+        "train_number": "04053",
+        "entry_min": 2835
+      },
+      {
+        "train_number": "12272",
+        "entry_min": 2862
+      },
+      {
+        "train_number": "12234",
+        "entry_min": 2868
+      },
+      {
+        "train_number": "12452",
+        "entry_min": 2871
+      },
+      {
+        "train_number": "12350",
+        "entry_min": 2877
+      },
+      {
+        "train_number": "12502",
+        "entry_min": 2877
+      },
+      {
+        "train_number": "12205",
+        "entry_min": 2898
+      },
+      {
+        "train_number": "12428",
+        "entry_min": 2900
+      },
+      {
+        "train_number": "04202",
+        "entry_min": 2904
+      },
+      {
+        "train_number": "12171",
+        "entry_min": 3352
+      },
+      {
+        "train_number": "12911",
+        "entry_min": 3559
+      },
+      {
+        "train_number": "14309",
+        "entry_min": 3587
+      },
+      {
+        "train_number": "14317",
+        "entry_min": 3587
+      },
+      {
+        "train_number": "12903",
+        "entry_min": 4043
+      },
+      {
+        "train_number": "59386-Slip",
+        "entry_min": 4108
+      },
+      {
+        "train_number": "18237",
+        "entry_min": 4109
+      },
+      {
+        "train_number": "12687",
+        "entry_min": 4171
+      },
+      {
+        "train_number": "12687-Slip",
+        "entry_min": 4171
+      },
+      {
+        "train_number": "12287",
+        "entry_min": 4999
+      },
+      {
+        "train_number": "18477",
+        "entry_min": 5212
+      }
+    ],
+    "CNJ -> SBB": [
+      {
+        "train_number": "14012",
+        "entry_min": 1804
+      },
+      {
+        "train_number": "12004",
+        "entry_min": 1831
+      },
+      {
+        "train_number": "12816",
+        "entry_min": 1842
+      },
+      {
+        "train_number": "12876",
+        "entry_min": 1842
+      },
+      {
+        "train_number": "12506",
+        "entry_min": 1852
+      },
+      {
+        "train_number": "12017",
+        "entry_min": 1871
+      },
+      {
+        "train_number": "12820",
+        "entry_min": 1882
+      },
+      {
+        "train_number": "12826",
+        "entry_min": 1882
+      },
+      {
+        "train_number": "12324",
+        "entry_min": 1890
+      },
+      {
+        "train_number": "12488",
+        "entry_min": 1904
+      },
+      {
+        "train_number": "12236",
+        "entry_min": 2024
+      },
+      {
+        "train_number": "12436",
+        "entry_min": 2024
+      },
+      {
+        "train_number": "12204",
+        "entry_min": 2129
+      },
+      {
+        "train_number": "14258",
+        "entry_min": 2161
+      },
+      {
+        "train_number": "12420",
+        "entry_min": 2220
+      },
+      {
+        "train_number": "12274",
+        "entry_min": 2231
+      },
+      {
+        "train_number": "12282",
+        "entry_min": 2231
+      },
+      {
+        "train_number": "12392",
+        "entry_min": 2256
+      },
+      {
+        "train_number": "12424",
+        "entry_min": 2290
+      },
+      {
+        "train_number": "22424",
+        "entry_min": 2290
+      },
+      {
+        "train_number": "12398",
+        "entry_min": 2302
+      },
+      {
+        "train_number": "12368",
+        "entry_min": 2322
+      },
+      {
+        "train_number": "12566",
+        "entry_min": 2322
+      },
+      {
+        "train_number": "12558",
+        "entry_min": 2332
+      },
+      {
+        "train_number": "14681",
+        "entry_min": 2350
+      },
+      {
+        "train_number": "12055",
+        "entry_min": 2374
+      },
+      {
+        "train_number": "12524",
+        "entry_min": 2375
+      },
+      {
+        "train_number": "14006",
+        "entry_min": 2389
+      },
+      {
+        "train_number": "12454",
+        "entry_min": 2420
+      },
+      {
+        "train_number": "12878",
+        "entry_min": 2421
+      },
+      {
+        "train_number": "12034",
+        "entry_min": 2428
+      },
+      {
+        "train_number": "12314",
+        "entry_min": 2440
+      },
+      {
+        "train_number": "12304",
+        "entry_min": 2443
+      },
+      {
+        "train_number": "12382",
+        "entry_min": 2448
+      },
+      {
+        "train_number": "14316",
+        "entry_min": 2459
+      },
+      {
+        "train_number": "12570",
+        "entry_min": 2462
+      },
+      {
+        "train_number": "12302",
+        "entry_min": 2470
+      },
+      {
+        "train_number": "12306",
+        "entry_min": 2471
+      },
+      {
+        "train_number": "22406",
+        "entry_min": 2478
+      },
+      {
+        "train_number": "12310",
+        "entry_min": 2480
+      },
+      {
+        "train_number": "22812",
+        "entry_min": 2490
+      },
+      {
+        "train_number": "12394",
+        "entry_min": 2502
+      },
+      {
+        "train_number": "22408",
+        "entry_min": 2532
+      },
+      {
+        "train_number": "64450",
+        "entry_min": 2534
+      },
+      {
+        "train_number": "14004",
+        "entry_min": 2540
+      },
+      {
+        "train_number": "54411",
+        "entry_min": 2564
+      },
+      {
+        "train_number": "12560",
+        "entry_min": 2577
+      },
+      {
+        "train_number": "54473",
+        "entry_min": 2594
+      },
+      {
+        "train_number": "22410",
+        "entry_min": 2599
+      },
+      {
+        "train_number": "12818",
+        "entry_min": 2632
+      },
+      {
+        "train_number": "12874",
+        "entry_min": 2632
+      },
+      {
+        "train_number": "12554",
+        "entry_min": 2647
+      },
+      {
+        "train_number": "12260",
+        "entry_min": 2655
+      },
+      {
+        "train_number": "12402",
+        "entry_min": 2663
+      },
+      {
+        "train_number": "12556",
+        "entry_min": 2678
+      },
+      {
+        "train_number": "12562",
+        "entry_min": 2693
+      },
+      {
+        "train_number": "12212",
+        "entry_min": 2712
+      },
+      {
+        "train_number": "12418",
+        "entry_min": 2745
+      },
+      {
+        "train_number": "12230",
+        "entry_min": 2790
+      },
+      {
+        "train_number": "12802",
+        "entry_min": 2793
+      },
+      {
+        "train_number": "12276",
+        "entry_min": 2831
+      },
+      {
+        "train_number": "04053",
+        "entry_min": 2840
+      },
+      {
+        "train_number": "12272",
+        "entry_min": 2864
+      },
+      {
+        "train_number": "12234",
+        "entry_min": 2870
+      },
+      {
+        "train_number": "12452",
+        "entry_min": 2872
+      },
+      {
+        "train_number": "12502",
+        "entry_min": 2878
+      },
+      {
+        "train_number": "12350",
+        "entry_min": 2880
+      },
+      {
+        "train_number": "12205",
+        "entry_min": 2901
+      },
+      {
+        "train_number": "12428",
+        "entry_min": 2901
+      },
+      {
+        "train_number": "04202",
+        "entry_min": 2909
+      },
+      {
+        "train_number": "12171",
+        "entry_min": 3353
+      },
+      {
+        "train_number": "12911",
+        "entry_min": 3562
+      },
+      {
+        "train_number": "14317",
+        "entry_min": 3589
+      },
+      {
+        "train_number": "14309",
+        "entry_min": 3590
+      },
+      {
+        "train_number": "12903",
+        "entry_min": 4047
+      },
+      {
+        "train_number": "59386-Slip",
+        "entry_min": 4110
+      },
+      {
+        "train_number": "18237",
+        "entry_min": 4111
+      },
+      {
+        "train_number": "12687-Slip",
+        "entry_min": 4174
+      },
+      {
+        "train_number": "12687",
+        "entry_min": 4175
+      },
+      {
+        "train_number": "12287",
+        "entry_min": 5002
+      },
+      {
+        "train_number": "18477",
+        "entry_min": 5214
+      }
+    ],
+    "SBB -> GZB": [
+      {
+        "train_number": "54308",
+        "entry_min": 1570
+      },
+      {
+        "train_number": "54539",
+        "entry_min": 1752
+      },
+      {
+        "train_number": "14012",
+        "entry_min": 1812
+      },
+      {
+        "train_number": "12004",
+        "entry_min": 1835
+      },
+      {
+        "train_number": "14556",
+        "entry_min": 1842
+      },
+      {
+        "train_number": "12876",
+        "entry_min": 1845
+      },
+      {
+        "train_number": "12816",
+        "entry_min": 1849
+      },
+      {
+        "train_number": "12506",
+        "entry_min": 1855
+      },
+      {
+        "train_number": "14084",
+        "entry_min": 1871
+      },
+      {
+        "train_number": "12017",
+        "entry_min": 1877
+      },
+      {
+        "train_number": "12820",
+        "entry_min": 1885
+      },
+      {
+        "train_number": "12826",
+        "entry_min": 1885
+      },
+      {
+        "train_number": "12324",
+        "entry_min": 1893
+      },
+      {
+        "train_number": "14044",
+        "entry_min": 1911
+      },
+      {
+        "train_number": "12488",
+        "entry_min": 1912
+      },
+      {
+        "train_number": "12236",
+        "entry_min": 2027
+      },
+      {
+        "train_number": "12436",
+        "entry_min": 2027
+      },
+      {
+        "train_number": "54056",
+        "entry_min": 2052
+      },
+      {
+        "train_number": "54505",
+        "entry_min": 2086
+      },
+      {
+        "train_number": "12204",
+        "entry_min": 2132
+      },
+      {
+        "train_number": "14258",
+        "entry_min": 2167
+      },
+      {
+        "train_number": "12420",
+        "entry_min": 2224
+      },
+      {
+        "train_number": "12274",
+        "entry_min": 2234
+      },
+      {
+        "train_number": "12282",
+        "entry_min": 2234
+      },
+      {
+        "train_number": "12392",
+        "entry_min": 2262
+      },
+      {
+        "train_number": "54521",
+        "entry_min": 2277
+      },
+      {
+        "train_number": "12424",
+        "entry_min": 2293
+      },
+      {
+        "train_number": "22424",
+        "entry_min": 2293
+      },
+      {
+        "train_number": "12398",
+        "entry_min": 2305
+      },
+      {
+        "train_number": "12566",
+        "entry_min": 2325
+      },
+      {
+        "train_number": "12368",
+        "entry_min": 2326
+      },
+      {
+        "train_number": "12558",
+        "entry_min": 2336
+      },
+      {
+        "train_number": "14681",
+        "entry_min": 2354
+      },
+      {
+        "train_number": "19601",
+        "entry_min": 2361
+      },
+      {
+        "train_number": "12055",
+        "entry_min": 2379
+      },
+      {
+        "train_number": "12524",
+        "entry_min": 2381
+      },
+      {
+        "train_number": "15708",
+        "entry_min": 2386
+      },
+      {
+        "train_number": "14006",
+        "entry_min": 2397
+      },
+      {
+        "train_number": "13040",
+        "entry_min": 2404
+      },
+      {
+        "train_number": "15035",
+        "entry_min": 2413
+      },
+      {
+        "train_number": "15035-Slip",
+        "entry_min": 2413
+      },
+      {
+        "train_number": "14645",
+        "entry_min": 2420
+      },
+      {
+        "train_number": "12454",
+        "entry_min": 2423
+      },
+      {
+        "train_number": "12878",
+        "entry_min": 2427
+      },
+      {
+        "train_number": "12034",
+        "entry_min": 2431
+      },
+      {
+        "train_number": "12314",
+        "entry_min": 2443
+      },
+      {
+        "train_number": "12304",
+        "entry_min": 2446
+      },
+      {
+        "train_number": "14018",
+        "entry_min": 2450
+      },
+      {
+        "train_number": "14008",
+        "entry_min": 2453
+      },
+      {
+        "train_number": "14016",
+        "entry_min": 2457
+      },
+      {
+        "train_number": "12382",
+        "entry_min": 2460
+      },
+      {
+        "train_number": "14316",
+        "entry_min": 2464
+      },
+      {
+        "train_number": "14014",
+        "entry_min": 2467
+      },
+      {
+        "train_number": "12570",
+        "entry_min": 2471
+      },
+      {
+        "train_number": "12306",
+        "entry_min": 2474
+      },
+      {
+        "train_number": "12302",
+        "entry_min": 2478
+      },
+      {
+        "train_number": "15280",
+        "entry_min": 2483
+      },
+      {
+        "train_number": "12310",
+        "entry_min": 2485
+      },
+      {
+        "train_number": "22406",
+        "entry_min": 2490
+      },
+      {
+        "train_number": "22812",
+        "entry_min": 2493
+      },
+      {
+        "train_number": "12394",
+        "entry_min": 2505
+      },
+      {
+        "train_number": "15274",
+        "entry_min": 2505
+      },
+      {
+        "train_number": "54471",
+        "entry_min": 2522
+      },
+      {
+        "train_number": "22408",
+        "entry_min": 2536
+      },
+      {
+        "train_number": "64450",
+        "entry_min": 2540
+      },
+      {
+        "train_number": "14004",
+        "entry_min": 2546
+      },
+      {
+        "train_number": "54411",
+        "entry_min": 2570
+      },
+      {
+        "train_number": "12560",
+        "entry_min": 2580
+      },
+      {
+        "train_number": "14206",
+        "entry_min": 2585
+      },
+      {
+        "train_number": "54473",
+        "entry_min": 2600
+      },
+      {
+        "train_number": "12380",
+        "entry_min": 2601
+      },
+      {
+        "train_number": "12330",
+        "entry_min": 2607
+      },
+      {
+        "train_number": "54022",
+        "entry_min": 2608
+      },
+      {
+        "train_number": "03686",
+        "entry_min": 2614
+      },
+      {
+        "train_number": "12226",
+        "entry_min": 2615
+      },
+      {
+        "train_number": "22410",
+        "entry_min": 2621
+      },
+      {
+        "train_number": "04204",
+        "entry_min": 2635
+      },
+      {
+        "train_number": "12874",
+        "entry_min": 2635
+      },
+      {
+        "train_number": "12818",
+        "entry_min": 2642
+      },
+      {
+        "train_number": "12554",
+        "entry_min": 2652
+      },
+      {
+        "train_number": "14208",
+        "entry_min": 2657
+      },
+      {
+        "train_number": "12260",
+        "entry_min": 2659
+      },
+      {
+        "train_number": "12402",
+        "entry_min": 2667
+      },
+      {
+        "train_number": "12556",
+        "entry_min": 2682
+      },
+      {
+        "train_number": "15716",
+        "entry_min": 2696
+      },
+      {
+        "train_number": "15716-Slip",
+        "entry_min": 2696
+      },
+      {
+        "train_number": "12562",
+        "entry_min": 2703
+      },
+      {
+        "train_number": "12212",
+        "entry_min": 2716
+      },
+      {
+        "train_number": "13112",
+        "entry_min": 2719
+      },
+      {
+        "train_number": "14650",
+        "entry_min": 2749
+      },
+      {
+        "train_number": "14674",
+        "entry_min": 2749
+      },
+      {
+        "train_number": "12418",
+        "entry_min": 2756
+      },
+      {
+        "train_number": "14218",
+        "entry_min": 2761
+      },
+      {
+        "train_number": "13414",
+        "entry_min": 2774
+      },
+      {
+        "train_number": "13484",
+        "entry_min": 2774
+      },
+      {
+        "train_number": "14724",
+        "entry_min": 2789
+      },
+      {
+        "train_number": "12230",
+        "entry_min": 2795
+      },
+      {
+        "train_number": "12802",
+        "entry_min": 2796
+      },
+      {
+        "train_number": "14041-Slip",
+        "entry_min": 2809
+      },
+      {
+        "train_number": "14041",
+        "entry_min": 2811
+      },
+      {
+        "train_number": "15013-Slip",
+        "entry_min": 2820
+      },
+      {
+        "train_number": "15013",
+        "entry_min": 2826
+      },
+      {
+        "train_number": "12276",
+        "entry_min": 2834
+      },
+      {
+        "train_number": "04053",
+        "entry_min": 2850
+      },
+      {
+        "train_number": "14056",
+        "entry_min": 2864
+      },
+      {
+        "train_number": "12272",
+        "entry_min": 2867
+      },
+      {
+        "train_number": "12234",
+        "entry_min": 2874
+      },
+      {
+        "train_number": "12452",
+        "entry_min": 2876
+      },
+      {
+        "train_number": "12502",
+        "entry_min": 2881
+      },
+      {
+        "train_number": "12350",
+        "entry_min": 2883
+      },
+      {
+        "train_number": "54078",
+        "entry_min": 2889
+      },
+      {
+        "train_number": "54076",
+        "entry_min": 2890
+      },
+      {
+        "train_number": "12205",
+        "entry_min": 2907
+      },
+      {
+        "train_number": "12428",
+        "entry_min": 2911
+      },
+      {
+        "train_number": "04202",
+        "entry_min": 2915
+      },
+      {
+        "train_number": "19603",
+        "entry_min": 2935
+      },
+      {
+        "train_number": "18102",
+        "entry_min": 3202
+      },
+      {
+        "train_number": "18102-Slip",
+        "entry_min": 3202
+      },
+      {
+        "train_number": "19105",
+        "entry_min": 3242
+      },
+      {
+        "train_number": "12312",
+        "entry_min": 3325
+      },
+      {
+        "train_number": "12171",
+        "entry_min": 3357
+      },
+      {
+        "train_number": "15610",
+        "entry_min": 3385
+      },
+      {
+        "train_number": "12911",
+        "entry_min": 3568
+      },
+      {
+        "train_number": "14317",
+        "entry_min": 3595
+      },
+      {
+        "train_number": "14309",
+        "entry_min": 3596
+      },
+      {
+        "train_number": "14312",
+        "entry_min": 3803
+      },
+      {
+        "train_number": "14322",
+        "entry_min": 3804
+      },
+      {
+        "train_number": "12903",
+        "entry_min": 4056
+      },
+      {
+        "train_number": "18237",
+        "entry_min": 4116
+      },
+      {
+        "train_number": "59386-Slip",
+        "entry_min": 4116
+      },
+      {
+        "train_number": "19269",
+        "entry_min": 4136
+      },
+      {
+        "train_number": "12687-Slip",
+        "entry_min": 4181
+      },
+      {
+        "train_number": "12687",
+        "entry_min": 4182
+      },
+      {
+        "train_number": "12287",
+        "entry_min": 5008
+      },
+      {
+        "train_number": "18477",
+        "entry_min": 5220
+      }
+    ],
+    "GZB -> MIU": [
+      {
+        "train_number": "12004",
+        "entry_min": 1846
+      },
+      {
+        "train_number": "12876",
+        "entry_min": 1851
+      },
+      {
+        "train_number": "12816",
+        "entry_min": 1857
+      },
+      {
+        "train_number": "12506",
+        "entry_min": 1862
+      },
+      {
+        "train_number": "14084",
+        "entry_min": 1888
+      },
+      {
+        "train_number": "12826",
+        "entry_min": 1891
+      },
+      {
+        "train_number": "12820",
+        "entry_min": 1899
+      },
+      {
+        "train_number": "12324",
+        "entry_min": 1902
+      },
+      {
+        "train_number": "12488",
+        "entry_min": 1928
+      },
+      {
+        "train_number": "12420",
+        "entry_min": 2237
+      },
+      {
+        "train_number": "12274",
+        "entry_min": 2238
+      },
+      {
+        "train_number": "12282",
+        "entry_min": 2248
+      },
+      {
+        "train_number": "12424",
+        "entry_min": 2297
+      },
+      {
+        "train_number": "22424",
+        "entry_min": 2297
+      },
+      {
+        "train_number": "12398",
+        "entry_min": 2310
+      },
+      {
+        "train_number": "12566",
+        "entry_min": 2330
+      },
+      {
+        "train_number": "12368",
+        "entry_min": 2333
+      },
+      {
+        "train_number": "15708",
+        "entry_min": 2390
+      },
+      {
+        "train_number": "14006",
+        "entry_min": 2413
+      },
+      {
+        "train_number": "12454",
+        "entry_min": 2427
+      },
+      {
+        "train_number": "12878",
+        "entry_min": 2431
+      },
+      {
+        "train_number": "12034",
+        "entry_min": 2438
+      },
+      {
+        "train_number": "13040",
+        "entry_min": 2442
+      },
+      {
+        "train_number": "12314",
+        "entry_min": 2449
+      },
+      {
+        "train_number": "12304",
+        "entry_min": 2456
+      },
+      {
+        "train_number": "12382",
+        "entry_min": 2464
+      },
+      {
+        "train_number": "12570",
+        "entry_min": 2475
+      },
+      {
+        "train_number": "12306",
+        "entry_min": 2478
+      },
+      {
+        "train_number": "12302",
+        "entry_min": 2486
+      },
+      {
+        "train_number": "12310",
+        "entry_min": 2489
+      },
+      {
+        "train_number": "22812",
+        "entry_min": 2497
+      },
+      {
+        "train_number": "22406",
+        "entry_min": 2500
+      },
+      {
+        "train_number": "12394",
+        "entry_min": 2510
+      },
+      {
+        "train_number": "12560",
+        "entry_min": 2586
+      },
+      {
+        "train_number": "12380",
+        "entry_min": 2606
+      },
+      {
+        "train_number": "12330",
+        "entry_min": 2611
+      },
+      {
+        "train_number": "03686",
+        "entry_min": 2618
+      },
+      {
+        "train_number": "12226",
+        "entry_min": 2622
+      },
+      {
+        "train_number": "22410",
+        "entry_min": 2629
+      },
+      {
+        "train_number": "12874",
+        "entry_min": 2641
+      },
+      {
+        "train_number": "12818",
+        "entry_min": 2646
+      },
+      {
+        "train_number": "12260",
+        "entry_min": 2663
+      },
+      {
+        "train_number": "12554",
+        "entry_min": 2663
+      },
+      {
+        "train_number": "12402",
+        "entry_min": 2674
+      },
+      {
+        "train_number": "12556",
+        "entry_min": 2689
+      },
+      {
+        "train_number": "12562",
+        "entry_min": 2707
+      },
+      {
+        "train_number": "13112",
+        "entry_min": 2735
+      },
+      {
+        "train_number": "12418",
+        "entry_min": 2762
+      },
+      {
+        "train_number": "14218",
+        "entry_min": 2775
+      },
+      {
+        "train_number": "13414",
+        "entry_min": 2788
+      },
+      {
+        "train_number": "13484",
+        "entry_min": 2788
+      },
+      {
+        "train_number": "12802",
+        "entry_min": 2803
+      },
+      {
+        "train_number": "14724",
+        "entry_min": 2804
+      },
+      {
+        "train_number": "12276",
+        "entry_min": 2838
+      },
+      {
+        "train_number": "14056",
+        "entry_min": 2871
+      },
+      {
+        "train_number": "12452",
+        "entry_min": 2882
+      },
+      {
+        "train_number": "12502",
+        "entry_min": 2887
+      },
+      {
+        "train_number": "12350",
+        "entry_min": 2893
+      },
+      {
+        "train_number": "12428",
+        "entry_min": 2929
+      },
+      {
+        "train_number": "18102",
+        "entry_min": 3221
+      },
+      {
+        "train_number": "18102-Slip",
+        "entry_min": 3221
+      },
+      {
+        "train_number": "12312",
+        "entry_min": 3339
+      }
+    ],
+    "MIU -> DER": [
+      {
+        "train_number": "12004",
+        "entry_min": 1852
+      },
+      {
+        "train_number": "12876",
+        "entry_min": 1859
+      },
+      {
+        "train_number": "12816",
+        "entry_min": 1863
+      },
+      {
+        "train_number": "12506",
+        "entry_min": 1869
+      },
+      {
+        "train_number": "14084",
+        "entry_min": 1896
+      },
+      {
+        "train_number": "12826",
+        "entry_min": 1899
+      },
+      {
+        "train_number": "12820",
+        "entry_min": 1905
+      },
+      {
+        "train_number": "12324",
+        "entry_min": 1908
+      },
+      {
+        "train_number": "12488",
+        "entry_min": 1936
+      },
+      {
+        "train_number": "12274",
+        "entry_min": 2245
+      },
+      {
+        "train_number": "12420",
+        "entry_min": 2245
+      },
+      {
+        "train_number": "12282",
+        "entry_min": 2254
+      },
+      {
+        "train_number": "12424",
+        "entry_min": 2303
+      },
+      {
+        "train_number": "22424",
+        "entry_min": 2303
+      },
+      {
+        "train_number": "12398",
+        "entry_min": 2318
+      },
+      {
+        "train_number": "12566",
+        "entry_min": 2338
+      },
+      {
+        "train_number": "12368",
+        "entry_min": 2343
+      },
+      {
+        "train_number": "15708",
+        "entry_min": 2396
+      },
+      {
+        "train_number": "14006",
+        "entry_min": 2422
+      },
+      {
+        "train_number": "12454",
+        "entry_min": 2434
+      },
+      {
+        "train_number": "12878",
+        "entry_min": 2437
+      },
+      {
+        "train_number": "12034",
+        "entry_min": 2444
+      },
+      {
+        "train_number": "13040",
+        "entry_min": 2448
+      },
+      {
+        "train_number": "12314",
+        "entry_min": 2455
+      },
+      {
+        "train_number": "12304",
+        "entry_min": 2470
+      },
+      {
+        "train_number": "12382",
+        "entry_min": 2470
+      },
+      {
+        "train_number": "12570",
+        "entry_min": 2483
+      },
+      {
+        "train_number": "12306",
+        "entry_min": 2484
+      },
+      {
+        "train_number": "12302",
+        "entry_min": 2492
+      },
+      {
+        "train_number": "12310",
+        "entry_min": 2495
+      },
+      {
+        "train_number": "22812",
+        "entry_min": 2503
+      },
+      {
+        "train_number": "22406",
+        "entry_min": 2506
+      },
+      {
+        "train_number": "12394",
+        "entry_min": 2518
+      },
+      {
+        "train_number": "12560",
+        "entry_min": 2594
+      },
+      {
+        "train_number": "12380",
+        "entry_min": 2614
+      },
+      {
+        "train_number": "12330",
+        "entry_min": 2617
+      },
+      {
+        "train_number": "03686",
+        "entry_min": 2624
+      },
+      {
+        "train_number": "12226",
+        "entry_min": 2628
+      },
+      {
+        "train_number": "22410",
+        "entry_min": 2635
+      },
+      {
+        "train_number": "12874",
+        "entry_min": 2649
+      },
+      {
+        "train_number": "12818",
+        "entry_min": 2652
+      },
+      {
+        "train_number": "12260",
+        "entry_min": 2669
+      },
+      {
+        "train_number": "12554",
+        "entry_min": 2672
+      },
+      {
+        "train_number": "12402",
+        "entry_min": 2682
+      },
+      {
+        "train_number": "12556",
+        "entry_min": 2698
+      },
+      {
+        "train_number": "12562",
+        "entry_min": 2713
+      },
+      {
+        "train_number": "13112",
+        "entry_min": 2747
+      },
+      {
+        "train_number": "12418",
+        "entry_min": 2769
+      },
+      {
+        "train_number": "14218",
+        "entry_min": 2782
+      },
+      {
+        "train_number": "13414",
+        "entry_min": 2795
+      },
+      {
+        "train_number": "13484",
+        "entry_min": 2795
+      },
+      {
+        "train_number": "14724",
+        "entry_min": 2811
+      },
+      {
+        "train_number": "12802",
+        "entry_min": 2812
+      },
+      {
+        "train_number": "12276",
+        "entry_min": 2845
+      },
+      {
+        "train_number": "14056",
+        "entry_min": 2881
+      },
+      {
+        "train_number": "12452",
+        "entry_min": 2891
+      },
+      {
+        "train_number": "12502",
+        "entry_min": 2896
+      },
+      {
+        "train_number": "12350",
+        "entry_min": 2899
+      },
+      {
+        "train_number": "12428",
+        "entry_min": 2937
+      },
+      {
+        "train_number": "18102",
+        "entry_min": 3227
+      },
+      {
+        "train_number": "18102-Slip",
+        "entry_min": 3227
+      },
+      {
+        "train_number": "12312",
+        "entry_min": 3353
+      }
+    ],
+    "DER -> BRKY": [
+      {
+        "train_number": "12004",
+        "entry_min": 1856
+      },
+      {
+        "train_number": "12876",
+        "entry_min": 1865
+      },
+      {
+        "train_number": "12816",
+        "entry_min": 1867
+      },
+      {
+        "train_number": "12506",
+        "entry_min": 1875
+      },
+      {
+        "train_number": "14084",
+        "entry_min": 1901
+      },
+      {
+        "train_number": "12826",
+        "entry_min": 1905
+      },
+      {
+        "train_number": "12820",
+        "entry_min": 1909
+      },
+      {
+        "train_number": "12324",
+        "entry_min": 1912
+      },
+      {
+        "train_number": "12488",
+        "entry_min": 1941
+      },
+      {
+        "train_number": "12274",
+        "entry_min": 2250
+      },
+      {
+        "train_number": "12420",
+        "entry_min": 2250
+      },
+      {
+        "train_number": "12282",
+        "entry_min": 2258
+      },
+      {
+        "train_number": "12424",
+        "entry_min": 2307
+      },
+      {
+        "train_number": "22424",
+        "entry_min": 2307
+      },
+      {
+        "train_number": "12398",
+        "entry_min": 2323
+      },
+      {
+        "train_number": "12566",
+        "entry_min": 2343
+      },
+      {
+        "train_number": "12368",
+        "entry_min": 2350
+      },
+      {
+        "train_number": "15708",
+        "entry_min": 2400
+      },
+      {
+        "train_number": "14006",
+        "entry_min": 2430
+      },
+      {
+        "train_number": "12454",
+        "entry_min": 2438
+      },
+      {
+        "train_number": "12878",
+        "entry_min": 2441
+      },
+      {
+        "train_number": "12034",
+        "entry_min": 2448
+      },
+      {
+        "train_number": "13040",
+        "entry_min": 2452
+      },
+      {
+        "train_number": "12314",
+        "entry_min": 2459
+      },
+      {
+        "train_number": "12304",
+        "entry_min": 2480
+      },
+      {
+        "train_number": "12382",
+        "entry_min": 2480
+      },
+      {
+        "train_number": "12306",
+        "entry_min": 2488
+      },
+      {
+        "train_number": "12570",
+        "entry_min": 2490
+      },
+      {
+        "train_number": "12302",
+        "entry_min": 2496
+      },
+      {
+        "train_number": "12310",
+        "entry_min": 2499
+      },
+      {
+        "train_number": "22812",
+        "entry_min": 2507
+      },
+      {
+        "train_number": "22406",
+        "entry_min": 2510
+      },
+      {
+        "train_number": "12394",
+        "entry_min": 2523
+      },
+      {
+        "train_number": "12560",
+        "entry_min": 2600
+      },
+      {
+        "train_number": "12380",
+        "entry_min": 2620
+      },
+      {
+        "train_number": "12330",
+        "entry_min": 2621
+      },
+      {
+        "train_number": "03686",
+        "entry_min": 2628
+      },
+      {
+        "train_number": "12226",
+        "entry_min": 2633
+      },
+      {
+        "train_number": "22410",
+        "entry_min": 2639
+      },
+      {
+        "train_number": "12874",
+        "entry_min": 2655
+      },
+      {
+        "train_number": "12818",
+        "entry_min": 2656
+      },
+      {
+        "train_number": "12260",
+        "entry_min": 2673
+      },
+      {
+        "train_number": "12554",
+        "entry_min": 2678
+      },
+      {
+        "train_number": "12402",
+        "entry_min": 2688
+      },
+      {
+        "train_number": "12556",
+        "entry_min": 2705
+      },
+      {
+        "train_number": "12562",
+        "entry_min": 2718
+      },
+      {
+        "train_number": "13112",
+        "entry_min": 2754
+      },
+      {
+        "train_number": "12418",
+        "entry_min": 2774
+      },
+      {
+        "train_number": "14218",
+        "entry_min": 2787
+      },
+      {
+        "train_number": "13414",
+        "entry_min": 2800
+      },
+      {
+        "train_number": "13484",
+        "entry_min": 2800
+      },
+      {
+        "train_number": "14724",
+        "entry_min": 2816
+      },
+      {
+        "train_number": "12802",
+        "entry_min": 2818
+      },
+      {
+        "train_number": "12276",
+        "entry_min": 2850
+      },
+      {
+        "train_number": "14056",
+        "entry_min": 2888
+      },
+      {
+        "train_number": "12452",
+        "entry_min": 2896
+      },
+      {
+        "train_number": "12502",
+        "entry_min": 2902
+      },
+      {
+        "train_number": "12350",
+        "entry_min": 2903
+      },
+      {
+        "train_number": "12428",
+        "entry_min": 2942
+      },
+      {
+        "train_number": "18102",
+        "entry_min": 3231
+      },
+      {
+        "train_number": "18102-Slip",
+        "entry_min": 3231
+      },
+      {
+        "train_number": "12312",
+        "entry_min": 3357
+      }
+    ]
+  }
+}

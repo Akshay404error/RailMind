@@ -1,0 +1,35 @@
+# Python
+.venv/
+.venv-1/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# VS Code Local History extension
+.history/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node / dashboard
+dashboard/node_modules/
+dashboard/dist/
+dashboard/package-lock.json
+
+# Raw datasets — large, regeneratable via docs/USE.md download instructions.
+# Keep synthetic/ (small, demonstrates real validated results) but not raw source data.
+data/stations.json
+data/trains.json
+data/schedules.json
+data/etrain_delays.csv
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db

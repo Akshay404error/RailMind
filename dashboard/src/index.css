@@ -1,0 +1,486 @@
+/* ============================================================
+   RailMind Dashboard — design tokens
+   Signal-box aesthetic: this is a control-room instrument, not
+   a marketing page. Every color carries operational meaning.
+   ============================================================ */
+
+:root {
+  /* surfaces */
+  --void: #0a0d0f;
+  --panel: #12181c;
+  --panel-raised: #1a2227;
+  --hairline: #263137;
+
+  /* text */
+  --text-primary: #d8e0e3;
+  --text-dim: #6b7c82;
+  --text-faint: #435158;
+
+  /* signal aspects — status, never decoration */
+  --signal-clear: #3ddc84;
+  --signal-clear-dim: #1c4d33;
+  --signal-caution: #f5a623;
+  --signal-caution-dim: #4d3c14;
+  --signal-danger: #ff4d4f;
+  --signal-danger-dim: #4d1f20;
+
+  /* priority accent — distinct from status colors on purpose */
+  --lamp-blue: #5b9dd9;
+  --lamp-blue-dim: #1c3147;
+
+  /* type */
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --radius: 4px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--void);
+  color: var(--text-primary);
+  font-family: var(--font-display);
+  -webkit-font-smoothing: antialiased;
+}
+
+button, input, select {
+  font-family: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--lamp-blue);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ============================================================
+   Layout shell
+   ============================================================ */
+
+.console {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100%;
+}
+
+.console-body {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  min-height: 0;
+}
+
+@media (max-width: 860px) {
+  .console-body {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
+}
+
+/* ============================================================
+   Top bar
+   ============================================================ */
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 22px;
+  border-bottom: 1px solid var(--hairline);
+  background: var(--panel);
+}
+
+.wordmark {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.wordmark-mark {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.14em;
+  color: var(--text-primary);
+}
+
+.wordmark-sub {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-faint);
+  letter-spacing: 0.08em;
+}
+
+.health-pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--hairline);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+.health-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--text-faint);
+}
+
+.health-dot.ok { background: var(--signal-clear); box-shadow: 0 0 8px var(--signal-clear); }
+.health-dot.warn { background: var(--signal-caution); box-shadow: 0 0 8px var(--signal-caution); }
+.health-dot.down { background: var(--signal-danger); box-shadow: 0 0 8px var(--signal-danger); }
+
+/* ============================================================
+   Sidebar — section panel, styled like a physical signal board
+   ============================================================ */
+
+.sidebar {
+  border-right: 1px solid var(--hairline);
+  background: var(--panel);
+  padding: 16px 10px;
+  overflow-y: auto;
+}
+
+.sidebar-label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  color: var(--text-faint);
+  padding: 0 10px 10px;
+  text-transform: uppercase;
+}
+
+.section-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 10px 12px;
+  margin-bottom: 4px;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  color: var(--text-primary);
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 120ms ease, border-color 120ms ease;
+}
+
+.section-btn:hover {
+  background: var(--panel-raised);
+}
+
+.section-btn.active {
+  background: var(--panel-raised);
+  border-color: var(--hairline);
+}
+
+.section-btn-name {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+}
+
+.section-btn-meta {
+  font-size: 10.5px;
+  color: var(--text-faint);
+}
+
+.aspect-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.aspect-dot.clear { background: var(--signal-clear); }
+.aspect-dot.caution { background: var(--signal-caution); }
+.aspect-dot.danger { background: var(--signal-danger); box-shadow: 0 0 6px var(--signal-danger); }
+
+/* ============================================================
+   Main area
+   ============================================================ */
+
+.main {
+  padding: 22px 26px;
+  overflow-y: auto;
+}
+
+.main-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.main-title {
+  font-size: 19px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.main-subtitle {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-dim);
+  margin: 4px 0 20px;
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  padding: 18px;
+  margin-bottom: 18px;
+}
+
+.panel-title {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0 0 14px;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* ============================================================
+   Track timeline — the signature element.
+   Trains plotted on a real time axis; headway zones shaded;
+   overlaps flash danger. This is the controller's instrument.
+   ============================================================ */
+
+.timeline-wrap {
+  position: relative;
+  padding: 34px 0 46px;
+}
+
+.timeline-track {
+  position: relative;
+  height: 3px;
+  background: var(--hairline);
+  border-radius: 2px;
+}
+
+.timeline-headway {
+  position: absolute;
+  top: -14px;
+  height: 30px;
+  background: color-mix(in srgb, var(--signal-caution) 12%, transparent);
+  border-left: 1px dashed color-mix(in srgb, var(--signal-caution) 45%, transparent);
+  border-right: 1px dashed color-mix(in srgb, var(--signal-caution) 45%, transparent);
+}
+
+.train-marker {
+  position: absolute;
+  top: -6px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid var(--void);
+  cursor: default;
+  transform: translateX(-50%);
+  transition: transform 120ms ease;
+}
+
+.train-marker:hover {
+  transform: translateX(-50%) scale(1.25);
+  z-index: 5;
+}
+
+.train-marker.pri-1 { background: var(--lamp-blue); box-shadow: 0 0 10px color-mix(in srgb, var(--lamp-blue) 60%, transparent); }
+.train-marker.pri-2 { background: var(--signal-clear); }
+.train-marker.pri-3 { background: var(--text-faint); }
+.train-marker.ontime { background: var(--signal-clear); }
+.train-marker.held { background: var(--signal-caution); }
+.train-marker.conflict { background: var(--signal-danger); box-shadow: 0 0 12px var(--signal-danger); }
+
+.train-label {
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-primary);
+  white-space: nowrap;
+  background: var(--panel-raised);
+  border: 1px solid var(--hairline);
+  padding: 2px 6px;
+  border-radius: 3px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 100ms ease;
+  z-index: 6;
+}
+
+.train-marker:hover .train-label {
+  opacity: 1;
+}
+
+.timeline-axis {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-faint);
+}
+
+.legend {
+  display: flex;
+  gap: 18px;
+  margin-top: 22px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-dim);
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+
+/* ============================================================
+   Occupancy table — the readable fallback for busy sections
+   (60-135 trains) where the dot-plot alone gets too dense to
+   read individual entries from, even with hover labels.
+   ============================================================ */
+
+.occupancy-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 22px;
+  font-size: 12.5px;
+}
+
+.occupancy-table th {
+  text-align: left;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.occupancy-table td {
+  padding: 7px 10px;
+  border-bottom: 1px solid color-mix(in srgb, var(--hairline) 50%, transparent);
+  color: var(--text-primary);
+}
+
+.occupancy-table tr:hover td {
+  background: var(--panel-raised);
+}
+
+.occupancy-table tr.row-conflict td {
+  color: var(--signal-danger);
+}
+
+.occupancy-table .mono {
+  font-family: var(--font-mono);
+}
+
+/* ============================================================
+   Disruption simulator
+   ============================================================ */
+
+.form-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field label {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  color: var(--text-faint);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.field select,
+.field input {
+  background: var(--void);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  color: var(--text-primary);
+  padding: 8px 10px;
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  min-width: 130px;
+}
+
+.btn {
+  background: var(--lamp-blue);
+  color: var(--void);
+  border: none;
+  border-radius: var(--radius);
+  padding: 9px 18px;
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: filter 120ms ease;
+}
+
+.btn:hover { filter: brightness(1.1); }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.result-line {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--hairline);
+  color: var(--text-dim);
+}
+
+.result-line.conflict { color: var(--signal-danger); }
+.result-line.clear { color: var(--signal-clear); }
+
+/* ============================================================
+   Empty / error states — direction, not mood
+   ============================================================ */
+
+.state-msg {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--text-faint);
+  padding: 30px 0;
+  text-align: center;
+}
+
+.state-msg.error { color: var(--signal-caution); }

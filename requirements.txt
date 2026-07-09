@@ -1,0 +1,11 @@
+pandas
+numpy
+ortools
+networkx
+simpy
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+jupyter
+matplotlib
