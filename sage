@@ -1,0 +1,38 @@
+[35msrc/api/auth.py[m[36m:[m[32m6[m[36m:[m  POST /auth/verify-otp   {email, code}                    -> existing user: [1;31mtoken[m
+[35msrc/api/auth.py[m[36m:[m[32m7[m[36m:[m                                                              new user: new_user=true + signup_[1;31mtoken[m
+[35msrc/api/auth.py[m[36m:[m[32m8[m[36m:[m  POST /auth/register     {signup_[1;31mtoken[m, name, phone, role} -> [1;31mtoken[m
+[35msrc/api/auth.py[m[36m:[m[32m13[m[36m:[m.env:   JWT_[1;31mSECRET[m, [1;31mSMTP[m_*, ADMIN_EMAIL (see audit.py),
+[35msrc/api/auth.py[m[36m:[m[32m21[m[36m:[mimport [1;31msecret[ms
+[35msrc/api/auth.py[m[36m:[m[32m44[m[36m:[mJWT_[1;31mSECRET[m = os.getenv("JWT_[1;31mSECRET[m")
+[35msrc/api/auth.py[m[36m:[m[32m45[m[36m:[mif not JWT_[1;31mSECRET[m:
+[35msrc/api/auth.py[m[36m:[m[32m46[m[36m:[m    JWT_[1;31mSECRET[m = [1;31msecret[ms.[1;31mtoken[m_hex(32)
+[35msrc/api/auth.py[m[36m:[m[32m47[m[36m:[m    print("[auth] WARNING: JWT_[1;31mSECRET[m not set in .env - logins reset on every restart.")
+[35msrc/api/auth.py[m[36m:[m[32m84[m[36m:[m    return hmac.new(JWT_[1;31mSECRET[m.encode(), f"{email}:{code}".encode(), hashlib.sha256).hexdigest()
+[35msrc/api/auth.py[m[36m:[m[32m87[m[36m:[mdef _[1;31mtoken[m(payload: dict, ttl: int) -> str:
+[35msrc/api/auth.py[m[36m:[m[32m89[m[36m:[m    return jwt.encode({**payload, "iat": now, "exp": now + ttl}, JWT_[1;31mSECRET[m, algorithm="HS256")
+[35msrc/api/auth.py[m[36m:[m[32m92[m[36m:[mdef _decode([1;31mtoken[m: str, purpose: str) -> dict:
+[35msrc/api/auth.py[m[36m:[m[32m94[m[36m:[m        data = jwt.decode([1;31mtoken[m, JWT_[1;31mSECRET[m, algorithms=["HS256"])
+[35msrc/api/auth.py[m[36m:[m[32m98[m[36m:[m        raise HTTPException(401, "Invalid [1;31mtoken[m.")
+[35msrc/api/auth.py[m[36m:[m[32m102[m[36m:[mdef verify_session([1;31mtoken[m: str) -> Optional[str]:
+[35msrc/api/auth.py[m[36m:[m[32m105[m[36m:[m        data = jwt.decode([1;31mtoken[m, JWT_[1;31mSECRET[m, algorithms=["HS256"])
+[35msrc/api/auth.py[m[36m:[m[32m122[m[36m:[m        raise HTTPException(500, "Email is not configured on the server ([1;31mSMTP[m_* in .env).")
+[35msrc/api/auth.py[m[36m:[m[32m146[m[36m:[m    signup_[1;31mtoken[m: str
+[35msrc/api/auth.py[m[36m:[m[32m162[m[36m:[m        code = f"{[1;31msecret[ms.randbelow(1_000_000):06d}"
+[35msrc/api/auth.py[m[36m:[m[32m200[m[36m:[m            "[1;31mtoken[m": _[1;31mtoken[m({"purpose": "session", "sub": email}, SESSION_TTL_SEC),
+[35msrc/api/auth.py[m[36m:[m[32m205[m[36m:[m        "signup_[1;31mtoken[m": _[1;31mtoken[m({"purpose": "signup", "sub": email}, SIGNUP_TTL_SEC),
+[35msrc/api/auth.py[m[36m:[m[32m211[m[36m:[m    email = _decode(body.signup_[1;31mtoken[m, "signup")["sub"]  # proves the email was OTP-verified
+[35msrc/api/auth.py[m[36m:[m[32m224[m[36m:[m        "[1;31mtoken[m": _[1;31mtoken[m({"purpose": "session", "sub": email}, SESSION_TTL_SEC),
+[35msrc/api/mailer.py[m[36m:[m[32m2[m[36m:[mRailMind - shared mail sender (Gmail [1;31mSMTP[m). Used by login codes, login alerts
+[35msrc/api/mailer.py[m[36m:[m[32m5[m[36m:[m.env: [1;31mSMTP[m_HOST, [1;31mSMTP[m_PORT (587 or 465), [1;31mSMTP[m_USER, [1;31mSMTP[m_[1;31mPASSWORD[m, [1;31mSMTP[m_FROM
+[35msrc/api/mailer.py[m[36m:[m[32m9[m[36m:[mimport [1;31msmtp[mlib
+[35msrc/api/mailer.py[m[36m:[m[32m25[m[36m:[m    return all(os.getenv(k) for k in ("[1;31mSMTP[m_HOST", "[1;31mSMTP[m_USER", "[1;31mSMTP[m_[1;31mPASSWORD[m"))
+[35msrc/api/mailer.py[m[36m:[m[32m36[m[36m:[m        raise MailError("Email is not configured ([1;31mSMTP[m_* in .env).")
+[35msrc/api/mailer.py[m[36m:[m[32m40[m[36m:[m    msg["From"] = os.getenv("[1;31mSMTP[m_FROM") or os.environ["[1;31mSMTP[m_USER"]
+[35msrc/api/mailer.py[m[36m:[m[32m48[m[36m:[m    host = os.environ["[1;31mSMTP[m_HOST"]
+[35msrc/api/mailer.py[m[36m:[m[32m49[m[36m:[m    port = int(os.getenv("[1;31mSMTP[m_PORT", "587"))
+[35msrc/api/mailer.py[m[36m:[m[32m50[m[36m:[m    [1;31mpassword[m = os.environ["[1;31mSMTP[m_[1;31mPASSWORD[m"].replace(" ", "")
+[35msrc/api/mailer.py[m[36m:[m[32m53[m[36m:[m            server = [1;31msmtp[mlib.[1;31mSMTP[m_SSL(host, port, timeout=20)
+[35msrc/api/mailer.py[m[36m:[m[32m55[m[36m:[m            server = [1;31msmtp[mlib.[1;31mSMTP[m(host, port, timeout=20)
+[35msrc/api/mailer.py[m[36m:[m[32m58[m[36m:[m            server.login(os.environ["[1;31mSMTP[m_USER"], [1;31mpassword[m)
+[35msrc/api/security.py[m[36m:[m[32m105[m[36m:[m        internal = headers.get("x-railmind-internal") == audit.INTERNAL_[1;31mTOKEN[m
+[35msrc/api/security.py[m[36m:[m[32m178[m[36m:[m        raise HTTPException(500, "Email is not configured ([1;31mSMTP[m_* in .env).")
