@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { simulateDisruption } from '../api.js'
 
-export default function DisruptionPanel({ section }) {
+export default function DisruptionPanel({ section, onScenario }) {
   const [train, setTrain] = useState(section.occupants[0]?.train ?? '')
   const [delayMin, setDelayMin] = useState(10)
   const [result, setResult] = useState(null)
@@ -10,12 +10,21 @@ export default function DisruptionPanel({ section }) {
   async function handleRun() {
     setLoading(true)
     setResult(null)
-    const res = await simulateDisruption({ train, sectionName: section.name, delayMin: Number(delayMin) })
+    const delay = Number(delayMin)
+    const res = await simulateDisruption({
+      train,
+      sectionIndex: section.sectionIndex,
+      sectionName: section.name,
+      delayMin: delay,
+    })
     setResult(res)
+    if (res.live && !res.failed && onScenario) {
+      onScenario({ train, sectionIndex: section.sectionIndex, delayMin: delay })
+    }
     setLoading(false)
   }
 
-  const resultClass = result?.conflicts > 0 ? 'conflict' : result ? 'clear' : ''
+  const resultClass = result?.failed ? 'conflict' : result?.conflicts > 0 ? 'conflict' : result ? 'clear' : ''
 
   return (
     <div className="panel">
@@ -35,22 +44,30 @@ export default function DisruptionPanel({ section }) {
             id="delay-input"
             type="number"
             min="1"
-            max="60"
+            max="120"
             value={delayMin}
             onChange={(e) => setDelayMin(e.target.value)}
           />
         </div>
-        <button className="btn" onClick={handleRun} disabled={loading || !train}>
-          {loading ? 'RUNNING…' : 'RUN SIMULATION'}
+        <button className="btn" onClick={handleRun} disabled={loading || !train || !(Number(delayMin) > 0)}>
+          {loading ? 'RUNNING...' : 'RUN SIMULATION'}
         </button>
       </div>
 
       {result && (
         <div className={`result-line ${resultClass}`}>
-          {result.note || (result.conflicts > 0
-            ? `${result.conflicts} conflict(s) triggered on ${section.name}.`
-            : `No conflicts triggered on ${section.name}.`)}
-          {!result.live && ' (backend unreachable — showing local estimate)'}
+          {result.failed && `Simulation failed: ${result.error}`}
+          {!result.failed && result.note}
+          {!result.failed && !result.note && (
+            <>
+              {result.conflicts} new conflict(s) after delaying {train} by {delayMin} min at {section.name}:
+              <ul className="conflict-list">
+                {result.conflictList.map((c, i) => (
+                  <li key={i}>[{c.section_name}] {c.train_a} vs {c.train_b}</li>
+                ))}
+              </ul>
+            </>
+          )}
         </div>
       )}
     </div>

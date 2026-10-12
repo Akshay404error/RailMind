@@ -33,3 +33,9 @@ data/processed/*
 # OS
 .DS_Store
 Thumbs.db
+data/auth.db
+.env
+*.db
+.venv/
+__pycache__/
+node_modules/

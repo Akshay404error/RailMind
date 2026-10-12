@@ -67,3 +67,19 @@ class HealthResponse(BaseModel):
     status: str
     trains_loaded: int
     sections_loaded: int
+
+
+# APPEND these to the bottom of your existing src/api/models/schemas.py
+# (Optional is already imported there; add `from typing import Optional` if not.)
+
+class ReportEmailRequest(BaseModel):
+    to: list[str] = Field(..., min_length=1, description="Recipient email addresses")
+    subject: Optional[str] = None
+    train_number: Optional[str] = None
+    section_index: Optional[int] = None
+    delay_min: Optional[float] = Field(None, gt=0)
+
+
+class ReportEmailResponse(BaseModel):
+    sent: bool
+    recipients: list[str]

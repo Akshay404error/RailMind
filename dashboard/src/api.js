@@ -1,20 +1,25 @@
-// RailMind dashboard — API layer
+// RailMind dashboard - API layer (v3: login-aware)
 //
-// Calls the FastAPI backend via the /api proxy (see vite.config.js).
-// Field names below (`health()`, `getSections()`, `simulateDisruption()`)
-// assume endpoints matching what was scaffolded earlier
-// (/health, /schedule/sections, /simulate/baseline) — ADJUST THE PATHS
-// AND RESPONSE MAPPING BELOW if your actual FastAPI routes differ.
+// Talks to the FastAPI backend through the /api proxy (see vite.config.js).
+//   GET  /health                 (public)
+//   GET  /schedule/corridor      (all sections + trains + priority + conflicts, one call)
+//   POST /simulate/disruption    (what-if delay on one train)
+//   GET  /report/pdf             (PDF report, see downloadReportPdf in auth.js)
+//   POST /report/email           (email the live report)
 //
-// If a call fails (backend not running, wrong shape, CORS, etc.) each
-// function falls back to real demo data from the actual ANVR->BRKY
-// corridor so the dashboard is still usable standalone.
+// Every call except /health goes through authFetch, which adds the login token.
+// If the backend is unreachable, getSections() falls back to demo data.
+
+import { authFetch } from './auth.js'
 
 const BASE = '/api'
 
-// Real corridor + a sample of real train numbers/priorities from the
-// validated optimizer run, used only as a fallback when the live API
-// isn't reachable.
+export const PRIORITY_INFO = {
+  1: { label: 'Premium', color: 'var(--lamp-blue)' },
+  2: { label: 'Express', color: 'var(--signal-clear)' },
+  3: { label: 'Passenger', color: 'var(--text-faint)' },
+}
+
 const DEMO_SECTIONS = [
   { name: 'ANVR -> ANVT', headwayMin: 3, occupants: [
     { train: '12004', entryMin: 1829, priority: 1 },
@@ -56,22 +61,24 @@ const DEMO_SECTIONS = [
   ]},
 ]
 
-function minutesToClock(min) {
+export function minutesToClock(min) {
   const h = Math.floor((min % 1440) / 60)
   const m = Math.round(min % 60)
   return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}`
 }
 
-function withHeadwayConflicts(section) {
+// Demo-data only. Live data gets its conflict flags from the backend simulator
+// (capacity + headway aware), so this naive gap check is NOT used for live data.
+function withDemoConflicts(section, index) {
   const sorted = [...section.occupants].sort((a, b) => a.entryMin - b.entryMin)
   const flagged = sorted.map((o, i) => {
     const prev = sorted[i - 1]
-    const conflict = prev && (o.entryMin - prev.entryMin) < section.headwayMin
-    return { ...o, conflict: Boolean(conflict) }
+    return { ...o, conflict: Boolean(prev && o.entryMin - prev.entryMin < section.headwayMin) }
   })
-  return { ...section, occupants: flagged }
+  return { ...section, sectionIndex: index, occupants: flagged }
 }
 
+// /health is public, so it uses plain fetch (no login needed for the status light).
 export async function getHealth() {
   try {
     const res = await fetch(`${BASE}/health`)
@@ -85,105 +92,103 @@ export async function getHealth() {
 
 export async function getSections() {
   try {
-    // CONFIRMED shapes from your real /openapi.json:
-    //   GET /schedule/sections -> SectionInfo[]
-    //     { section_index, from_station, to_station, line_type, capacity,
-    //       headway_minutes, duration_minutes }
-    //   GET /schedule/trains -> string[]  (just train numbers)
-    //   GET /schedule/trains/{train_number} -> TrainScheduleResponse
-    //     { train_number, stops: [{ section, section_index,
-    //       scheduled_entry_min, recommended_entry_min, delay_min }] }
-    //
-    // There's no single endpoint returning sections+trains together, and
-    // no priority/train-name field anywhere - so this reassembles
-    // occupancy client-side from the per-train endpoint, and colors
-    // trains by delay_min (real optimizer output) instead of priority
-    // (which the API doesn't expose).
-    const [sectionsRes, trainsRes] = await Promise.all([
-      fetch(`${BASE}/schedule/sections`),
-      fetch(`${BASE}/schedule/trains`),
-    ])
-    if (!sectionsRes.ok) throw new Error(`/schedule/sections status ${sectionsRes.status}`)
-    if (!trainsRes.ok) throw new Error(`/schedule/trains status ${trainsRes.status}`)
-
-    const sectionMetas = await sectionsRes.json()
-    const trainNumbers = await trainsRes.json()
-
-    const sectionsByIndex = new Map(
-      sectionMetas.map((s) => [s.section_index, {
-        name: `${s.from_station} -> ${s.to_station}`,
-        sectionIndex: s.section_index,
-        headwayMin: s.headway_minutes ?? 5,
-        lineType: s.line_type,
-        capacity: s.capacity,
-        durationMin: s.duration_minutes,
-        occupants: [],
-      }])
-    )
-
-    // Fetch every train's schedule. allSettled so one bad train doesn't
-    // blank the whole corridor.
-    const trainResults = await Promise.allSettled(
-      trainNumbers.map((num) =>
-        fetch(`${BASE}/schedule/trains/${num}`).then((r) => {
-          if (!r.ok) throw new Error(`status ${r.status}`)
-          return r.json()
-        })
-      )
-    )
-
-    for (const result of trainResults) {
-      if (result.status !== 'fulfilled') continue
-      const { train_number, stops } = result.value
-      for (const stop of stops) {
-        const section = sectionsByIndex.get(stop.section_index)
-        if (!section) continue
-        section.occupants.push({
-          train: train_number,
-          entryMin: stop.recommended_entry_min,
-          delayMin: stop.delay_min,
-          priority: null,  // not exposed by the API
-        })
-      }
-    }
-
-    const sections = [...sectionsByIndex.values()]
-      .sort((a, b) => a.sectionIndex - b.sectionIndex)
-      .map(withHeadwayConflicts)
-
-    return { sections, live: true }
-  } catch (err) {
-    return { sections: DEMO_SECTIONS.map(withHeadwayConflicts), live: false, error: err.message }
-  }
-}
-
-export async function simulateDisruption({ train, sectionName, delayMin }) {
-  try {
-    const res = await fetch(`${BASE}/simulate/baseline`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ train_number: train, section: sectionName, delay_min: delayMin }),
-    })
-    if (res.status === 404) {
-      throw new Error('404 - /simulate/baseline not found (router likely not registered in main.py yet)')
-    }
-    if (!res.ok) throw new Error(`status ${res.status}`)
+    const res = await authFetch('/schedule/corridor')
+    if (!res.ok) throw new Error(`/schedule/corridor status ${res.status}`)
     const data = await res.json()
-    return { ...data, live: true }
+    const sections = data.sections.map((s) => ({
+      name: s.name,
+      sectionIndex: s.section_index,
+      headwayMin: s.headway_minutes,
+      lineType: s.line_type,
+      capacity: s.capacity,
+      durationMin: s.duration_minutes,
+      occupants: s.occupants.map((o) => ({
+        train: o.train,
+        entryMin: o.entry_min,
+        delayMin: o.delay_min,
+        priority: o.priority,
+        conflict: o.conflict,
+      })),
+    }))
+    return { sections, live: true, conflictCount: data.conflict_count }
   } catch (err) {
-    // Fallback: a plausible local estimate so the panel is still demoable
-    // even though /simulate isn't live yet.
-    const conflicted = delayMin > 8
     return {
+      sections: DEMO_SECTIONS.map(withDemoConflicts),
       live: false,
       error: err.message,
-      resolved: true,
-      conflicts: conflicted ? 1 : 0,
-      note: conflicted
-        ? `Simulated locally (${err.message}): a ${delayMin}min delay on ${train} likely breaches headway on ${sectionName}.`
-        : `Simulated locally (${err.message}): a ${delayMin}min delay on ${train} stays within headway on ${sectionName}.`,
+      conflictCount: null,
     }
   }
 }
 
-export { minutesToClock }
+export async function simulateDisruption({ train, sectionIndex, sectionName, delayMin }) {
+  try {
+    const res = await authFetch('/simulate/disruption', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        train_number: train,
+        section_index: sectionIndex,
+        delay_min: delayMin,
+        propagate: true,
+      }),
+    })
+    if (!res.ok) {
+      let detail = ''
+      try { detail = (await res.json()).detail } catch { /* ignore */ }
+      throw new Error(`status ${res.status}${detail ? ` - ${detail}` : ''}`)
+    }
+    const data = await res.json()
+    return {
+      live: true,
+      conflicts: data.new_conflicts.length,
+      conflictList: data.new_conflicts,
+      note: data.conflict_free
+        ? `+${delayMin} min on ${train} at ${sectionName}: the schedule absorbs this delay, no new conflicts.`
+        : null,
+    }
+  } catch (err) {
+    // Only guess locally when the backend can't be reached at all.
+    if (err instanceof TypeError) {
+      const conflicted = delayMin > 8
+      return {
+        live: false,
+        conflicts: conflicted ? 1 : 0,
+        note: `Backend unreachable - local estimate: a ${delayMin} min delay on ${train} ${conflicted ? 'likely breaches' : 'stays within'} headway on ${sectionName}.`,
+      }
+    }
+    return { live: true, failed: true, error: err.message }
+  }
+}
+
+// ---------- report + mail ----------
+
+// Query params for the PDF report / email, built from the last simulation (or none).
+export function reportParams(scenario) {
+  if (!scenario) return {}
+  return {
+    train_number: scenario.train,
+    section_index: scenario.sectionIndex,
+    delay_min: scenario.delayMin,
+  }
+}
+
+export async function emailReport({ to, subject, scenario }) {
+  const body = { to, subject: subject || null }
+  if (scenario) {
+    body.train_number = scenario.train
+    body.section_index = scenario.sectionIndex
+    body.delay_min = scenario.delayMin
+  }
+  const res = await authFetch('/report/email', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  })
+  if (!res.ok) {
+    let detail = `status ${res.status}`
+    try { detail = (await res.json()).detail || detail } catch { /* ignore */ }
+    throw new Error(detail)
+  }
+  return res.json()
+}
